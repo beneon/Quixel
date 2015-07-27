@@ -59,6 +59,7 @@ namespace Quixel
             if (finishedQueue.Count > 0)
                 lock (finishedQueue)
                     return finishedQueue.Dequeue();
+                    //return and delete the element at the beginning of queue
 
             return null;
         }

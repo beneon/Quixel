@@ -1,0 +1,10 @@
+<body>
+  <script>
+
+  function alertWin(){
+    window.alert('click it');
+    window.addEventListener('AlertClose',alertWin());
+  }
+  </script>
+  <div onclick="alertWin()">cc</div>
+</body>
