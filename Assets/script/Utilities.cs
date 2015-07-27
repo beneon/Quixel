@@ -160,11 +160,12 @@ namespace Quixel
                         last = Values[x, y, z];
                     }
 
-            float[] ret = new float[data.Count];
+            float[] ret = data.ToArray();
+            /*float[] ret = new float[data.Count;
             for (int i = 0; i < data.Count; i++)
-                ret[i] = data[i];
-
+                ret[i] = data[i];*/
             return ret;
+            //这个和toArray有什么区别呢？暂时没发现，于是直接改成ToArray吧
         }
 
         /// <summary>
@@ -179,10 +180,10 @@ namespace Quixel
             data.Add(last);
 
             int count = 0;
-            for (int x = 0; x < 19; x++)
-                for (int y = 0; y < 19; y++)
-                    for (int z = 0; z < 19; z++)
-                    {
+            for (int x = 0; x < 19; x++){
+                for (int y = 0; y < 19; y++){
+                    for (int z = 0; z < 19; z++){
+
                         count++;
                         if (Materials[x, y, z] == last)
                         {
@@ -196,12 +197,12 @@ namespace Quixel
                         }
 
                         last = Materials[x, y, z];
-                    }
+                    }}}
 
-            int[] ret = new int[data.Count];
+            int[] ret = data.ToArray();
+            /*int[] ret = new int[data.Count];
             for (int i = 0; i < data.Count; i++)
-                ret[i] = data[i];
-
+                ret[i] = data[i];*/
             return ret;
         }
 
@@ -211,14 +212,15 @@ namespace Quixel
         /// <param name="data"></param>
         public void decompressDensityData(float[] data)
         {
-            int total = 0;
+            //测试过这个可以用，不过total在这里没有什么太大的用处，估计是之前debug的时候残留的
+            //int total = 0;
             int index = 0;
             int count = 0;
             for (int x = 0; x < 19; x++)
                 for (int y = 0; y < 19; y++)
                     for (int z = 0; z < 19; z++)
                     {
-                        total++;
+                        //total++;
 
                         if (count >= data[index])
                         {
@@ -238,14 +240,14 @@ namespace Quixel
         /// <param name="data"></param>
         public void decompressMaterialData(int[] data)
         {
-            int total = 0;
+            //int total = 0;
             int index = 0;
             int count = 0;
-            for (int x = 0; x < 19; x++)
-                for (int y = 0; y < 19; y++)
+            for (int x = 0; x < 19; x++){
+                for (int y = 0; y < 19; y++){
                     for (int z = 0; z < 19; z++)
                     {
-                        total++;
+                        //total++;
 
                         if (count >= data[index])
                         {
@@ -256,7 +258,7 @@ namespace Quixel
                         count++;
 
                         Materials[x, y, z] = (byte)data[index + 1];
-                    }
+                    }}}
         }
 
         /// <summary>
