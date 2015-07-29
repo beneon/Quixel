@@ -5,7 +5,7 @@ using System.Threading;
 using System;
 using System.IO;
 
-namespace Quixel
+namespace Quixx
 {
     internal static class ChunkPool
     {

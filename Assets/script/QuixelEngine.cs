@@ -45,15 +45,15 @@ namespace Quixel
                 NodeManager.LODSize[i] = (int)Mathf.Pow(2, i + size);
             }
         }
-		
+
 		/// <summary>
         /// Sets the terrain generator to use when generating terrain.
         /// </summary>
-		public static void setTerrainGenerator(IGenerator gen)
-		{
-			MeshFactory.terrainGenerator = gen;
-		}
-		
+    		public static void setTerrainGenerator(IGenerator gen)
+    		{
+    			MeshFactory.terrainGenerator = gen;
+    		}
+
         /// <summary>
         /// Updates the Quixel system. Should be called every step.
         /// </summary>
