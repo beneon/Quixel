@@ -1,0 +1,786 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Add	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Utilities.cs	/^        public Vector3I Add(Vector3I other)$/;"	m	struct:Quixel.Vector3I
+Add	/Users/benandlucy/Desktop/Quixel/Assets/script/Utilities.cs	/^        public Vector3I Add(Vector3I other)$/;"	m	struct:Quixell.Vector3I
+Add	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/Utilities.cs	/^        public Vector3I Add(Vector3I other)$/;"	m	struct:Quixx.Vector3I
+AngleDistance	/Users/benandlucy/Desktop/Quixel/Assets/Standard Assets/Character Controllers/Sources/Scripts/ThirdPersonCamera.js	/^function AngleDistance (a : float, b : float)$/;"	f
+Apply	/Users/benandlucy/Desktop/Quixel/Assets/Standard Assets/Character Controllers/Sources/Scripts/ThirdPersonCamera.js	/^function Apply (dummyTarget : Transform, dummyCenter : Vector3)$/;"	f
+ApplyGravity	/Users/benandlucy/Desktop/Quixel/Assets/Standard Assets/Character Controllers/Sources/Scripts/ThirdPersonController.js	/^function ApplyGravity ()$/;"	f
+ApplyJumping	/Users/benandlucy/Desktop/Quixel/Assets/Standard Assets/Character Controllers/Sources/Scripts/ThirdPersonController.js	/^function ApplyJumping ()$/;"	f
+Awake	/Users/benandlucy/Desktop/Quixel/Assets/Standard Assets/Character Controllers/Sources/Scripts/CharacterMotor.js	/^function Awake () {$/;"	f
+Awake	/Users/benandlucy/Desktop/Quixel/Assets/Standard Assets/Character Controllers/Sources/Scripts/FPSInputController.js	/^function Awake () {$/;"	f
+Awake	/Users/benandlucy/Desktop/Quixel/Assets/Standard Assets/Character Controllers/Sources/Scripts/PlatformInputController.js	/^function Awake () {$/;"	f
+Awake	/Users/benandlucy/Desktop/Quixel/Assets/Standard Assets/Character Controllers/Sources/Scripts/ThirdPersonCamera.js	/^function Awake ()$/;"	f
+Awake	/Users/benandlucy/Desktop/Quixel/Assets/Standard Assets/Character Controllers/Sources/Scripts/ThirdPersonController.js	/^function Awake ()$/;"	f
+BACK	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Nodes.cs	/^            FRONT, BACK$/;"	e	enum:Quixel.Node.RenderType	file:
+BACK	/Users/benandlucy/Desktop/Quixel/Assets/script/Nodes.cs	/^            FRONT, BACK$/;"	e	enum:Quixell.Node.RenderType	file:
+BACK	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/node.cs	/^            FRONT, BACK$/;"	e	enum:Quixx.Node.RenderType	file:
+BOX	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/NodeEditor.cs	/^            BOX, SPHERE$/;"	e	enum:Quixel.NodeEditor.BrushType	file:
+BOX	/Users/benandlucy/Desktop/Quixel/Assets/script/NodeEditor.cs	/^            BOX, SPHERE$/;"	e	enum:Quixell.NodeEditor.BrushType	file:
+BasicTerrain	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/ITerrainGenerator.cs	/^    internal class BasicTerrain : IGenerator$/;"	c	namespace:Quixel
+BasicTerrain	/Users/benandlucy/Desktop/Quixel/Assets/script/ITerrainGenerator.cs	/^    internal class BasicTerrain : IGenerator$/;"	c	namespace:Quixell
+BasicTerrain	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/ITerrainGenerator.cs	/^  internal class BasicTerrain:IGenerator$/;"	c	namespace:Quixx
+BrushType	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/NodeEditor.cs	/^        public enum BrushType$/;"	g	class:Quixel.NodeEditor
+BrushType	/Users/benandlucy/Desktop/Quixel/Assets/script/NodeEditor.cs	/^        public enum BrushType$/;"	g	class:Quixell.NodeEditor
+CalculateJumpVerticalSpeed	/Users/benandlucy/Desktop/Quixel/Assets/Standard Assets/Character Controllers/Sources/Scripts/CharacterMotor.js	/^function CalculateJumpVerticalSpeed (targetJumpHeight : float) {$/;"	f
+CalculateJumpVerticalSpeed	/Users/benandlucy/Desktop/Quixel/Assets/Standard Assets/Character Controllers/Sources/Scripts/ThirdPersonController.js	/^function CalculateJumpVerticalSpeed (targetJumpHeight : float)$/;"	f
+ChunkPool	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Pooling.cs	/^    internal static class ChunkPool$/;"	c	namespace:Quixel
+ChunkPool	/Users/benandlucy/Desktop/Quixel/Assets/script/Pooling.cs	/^    internal static class ChunkPool$/;"	c	namespace:Quixell
+ChunkPool	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/Pooling.cs	/^    internal static class ChunkPool$/;"	c	namespace:Quixx
+ConstantSlerp	/Users/benandlucy/Desktop/Quixel/Assets/Standard Assets/Character Controllers/Sources/Scripts/PlatformInputController.js	/^function ConstantSlerp (from : Vector3, to : Vector3, angle : float) {$/;"	f
+Cut	/Users/benandlucy/Desktop/Quixel/Assets/Standard Assets/Character Controllers/Sources/Scripts/ThirdPersonCamera.js	/^function Cut (dummyTarget : Transform, dummyCenter : Vector3)$/;"	f
+DENSITY_EMPTY	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/NodeEditor.cs	/^        public static float DENSITY_EMPTY = MeshFactory.isolevel + 1f;$/;"	f	class:Quixel.NodeEditor
+DENSITY_EMPTY	/Users/benandlucy/Desktop/Quixel/Assets/script/NodeEditor.cs	/^        public static float DENSITY_EMPTY = MeshFactory.isolevel + 1f;$/;"	f	class:Quixell.NodeEditor
+DENSITY_SOLIDHARD	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/NodeEditor.cs	/^        public static float DENSITY_SOLIDHARD = MeshFactory.isolevel - 0.1f;$/;"	f	class:Quixel.NodeEditor
+DENSITY_SOLIDHARD	/Users/benandlucy/Desktop/Quixel/Assets/script/NodeEditor.cs	/^        public static float DENSITY_SOLIDHARD = MeshFactory.isolevel - 0.1f;$/;"	f	class:Quixell.NodeEditor
+DENSITY_SOLIDSOFT	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/NodeEditor.cs	/^        public static float DENSITY_SOLIDSOFT = MeshFactory.isolevel - 5f;$/;"	f	class:Quixel.NodeEditor
+DENSITY_SOLIDSOFT	/Users/benandlucy/Desktop/Quixel/Assets/script/NodeEditor.cs	/^        public static float DENSITY_SOLIDSOFT = MeshFactory.isolevel - 5f;$/;"	f	class:Quixell.NodeEditor
+DebugDrawStuff	/Users/benandlucy/Desktop/Quixel/Assets/Standard Assets/Character Controllers/Sources/Scripts/ThirdPersonCamera.js	/^function DebugDrawStuff ()$/;"	f
+DensityData	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Utilities.cs	/^        public DensityData()$/;"	m	class:Quixel.DensityData
+DensityData	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Utilities.cs	/^    internal class DensityData$/;"	c	namespace:Quixel
+DensityData	/Users/benandlucy/Desktop/Quixel/Assets/script/Utilities.cs	/^        public DensityData()$/;"	m	class:Quixell.DensityData
+DensityData	/Users/benandlucy/Desktop/Quixel/Assets/script/Utilities.cs	/^    internal class DensityData$/;"	c	namespace:Quixell
+DensityData	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/Utilities.cs	/^        public DensityData()$/;"	m	class:Quixx.DensityData
+DensityData	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/Utilities.cs	/^    internal class DensityData$/;"	c	namespace:Quixx
+DensityPool	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Pooling.cs	/^    internal static class DensityPool$/;"	c	namespace:Quixel
+DensityPool	/Users/benandlucy/Desktop/Quixel/Assets/script/Pooling.cs	/^    internal static class DensityPool$/;"	c	namespace:Quixell
+DensityPool	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/Pooling.cs	/^    internal static class DensityPool$/;"	c	namespace:Quixx
+DensityThread	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Threading.cs	/^        public DensityThread()$/;"	m	class:Quixel.DensityThread
+DensityThread	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Threading.cs	/^    internal class DensityThread$/;"	c	namespace:Quixel
+DensityThread	/Users/benandlucy/Desktop/Quixel/Assets/script/Threading.cs	/^        public DensityThread()$/;"	m	class:Quixell.DensityThread
+DensityThread	/Users/benandlucy/Desktop/Quixel/Assets/script/Threading.cs	/^    internal class DensityThread$/;"	c	namespace:Quixell
+DensityThread	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/Threading.cs	/^        public DensityThread()$/;"	m	class:Quixx.DensityThread
+DensityThread	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/Threading.cs	/^    internal class DensityThread$/;"	c	namespace:Quixx
+DidJump	/Users/benandlucy/Desktop/Quixel/Assets/Standard Assets/Character Controllers/Sources/Scripts/ThirdPersonController.js	/^function DidJump ()$/;"	f
+Equals	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Utilities.cs	/^        public override bool Equals(object obj)$/;"	m	struct:Quixel.Vector3I
+Equals	/Users/benandlucy/Desktop/Quixel/Assets/script/Utilities.cs	/^        public override bool Equals(object obj)$/;"	m	struct:Quixell.Vector3I
+Equals	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/Utilities.cs	/^        public override bool Equals(object obj)$/;"	m	struct:Quixx.Vector3I
+FRONT	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Nodes.cs	/^            FRONT, BACK$/;"	e	enum:Quixel.Node.RenderType	file:
+FRONT	/Users/benandlucy/Desktop/Quixel/Assets/script/Nodes.cs	/^            FRONT, BACK$/;"	e	enum:Quixell.Node.RenderType	file:
+FRONT	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/node.cs	/^            FRONT, BACK$/;"	e	enum:Quixx.Node.RenderType	file:
+FileThread	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Threading.cs	/^        public FileThread()$/;"	m	class:Quixel.FileThread
+FileThread	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Threading.cs	/^    internal class FileThread$/;"	c	namespace:Quixel
+FileThread	/Users/benandlucy/Desktop/Quixel/Assets/script/Threading.cs	/^        public FileThread()$/;"	m	class:Quixell.FileThread
+FileThread	/Users/benandlucy/Desktop/Quixel/Assets/script/Threading.cs	/^    internal class FileThread$/;"	c	namespace:Quixell
+FileThread	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/Threading.cs	/^        public FileThread()$/;"	m	class:Quixx.FileThread
+FileThread	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/Threading.cs	/^    internal class FileThread$/;"	c	namespace:Quixx
+FixedUpdate	/Users/benandlucy/Desktop/Quixel/Assets/Standard Assets/Character Controllers/Sources/Scripts/CharacterMotor.js	/^function FixedUpdate () {$/;"	f
+GenerateMeshData	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/MeshFactory.cs	/^        public static void GenerateMeshData(MeshRequest request)$/;"	m	class:Quixel.MeshFactory
+GenerateMeshData	/Users/benandlucy/Desktop/Quixel/Assets/script/MeshFactory.cs	/^        public static void GenerateMeshData(MeshRequest request)$/;"	m	class:Quixell.MeshFactory
+GenerateMeshData	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/MeshFactory.cs	/^        public static void GenerateMeshData(MeshRequest request)$/;"	m	class:Quixx.MeshFactory
+GeneratorThread	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Threading.cs	/^        public GeneratorThread()$/;"	m	class:Quixel.GeneratorThread
+GeneratorThread	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Threading.cs	/^    internal class GeneratorThread$/;"	c	namespace:Quixel
+GeneratorThread	/Users/benandlucy/Desktop/Quixel/Assets/script/Threading.cs	/^        public GeneratorThread()$/;"	m	class:Quixell.GeneratorThread
+GeneratorThread	/Users/benandlucy/Desktop/Quixel/Assets/script/Threading.cs	/^    internal class GeneratorThread$/;"	c	namespace:Quixell
+GeneratorThread	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/Threading.cs	/^        public GeneratorThread()$/;"	m	class:Quixx.GeneratorThread
+GeneratorThread	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/Threading.cs	/^    internal class GeneratorThread$/;"	c	namespace:Quixx
+GetCenterOffset	/Users/benandlucy/Desktop/Quixel/Assets/Standard Assets/Character Controllers/Sources/Scripts/ThirdPersonCamera.js	/^function GetCenterOffset ()$/;"	f
+GetDirection	/Users/benandlucy/Desktop/Quixel/Assets/Standard Assets/Character Controllers/Sources/Scripts/CharacterMotor.js	/^function GetDirection () {$/;"	f
+GetDirection	/Users/benandlucy/Desktop/Quixel/Assets/Standard Assets/Character Controllers/Sources/Scripts/ThirdPersonController.js	/^function GetDirection () {$/;"	f
+GetHashCode	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Utilities.cs	/^        public override int GetHashCode()$/;"	m	struct:Quixel.Vector3I
+GetHashCode	/Users/benandlucy/Desktop/Quixel/Assets/script/Utilities.cs	/^        public override int GetHashCode()$/;"	m	struct:Quixell.Vector3I
+GetHashCode	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/Utilities.cs	/^        public override int GetHashCode()$/;"	m	struct:Quixx.Vector3I
+GetLockCameraTimer	/Users/benandlucy/Desktop/Quixel/Assets/Standard Assets/Character Controllers/Sources/Scripts/ThirdPersonController.js	/^function GetLockCameraTimer () $/;"	f
+GetSpeed	/Users/benandlucy/Desktop/Quixel/Assets/Standard Assets/Character Controllers/Sources/Scripts/ThirdPersonController.js	/^function GetSpeed () {$/;"	f
+HasJumpReachedApex	/Users/benandlucy/Desktop/Quixel/Assets/Standard Assets/Character Controllers/Sources/Scripts/ThirdPersonController.js	/^function HasJumpReachedApex ()$/;"	f
+IGenerator	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/ITerrainGenerator.cs	/^    public interface IGenerator$/;"	i	namespace:Quixel
+IGenerator	/Users/benandlucy/Desktop/Quixel/Assets/script/ITerrainGenerator.cs	/^    public interface IGenerator$/;"	i	namespace:Quixell
+IGenerator	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/ITerrainGenerator.cs	/^  public interface IGenerator$/;"	i	namespace:Quixx
+IGenerator.calculateDensity	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/ITerrainGenerator.cs	/^        VoxelData IGenerator.calculateDensity(Vector3 pos)$/;"	m	class:Quixel.BasicTerrain	file:
+IGenerator.calculateDensity	/Users/benandlucy/Desktop/Quixel/Assets/script/ITerrainGenerator.cs	/^        VoxelData IGenerator.calculateDensity(Vector3 pos)$/;"	m	class:Quixell.BasicTerrain	file:
+IGenerator.calculateDensity	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/ITerrainGenerator.cs	/^    VoxelData IGenerator.calculateDensity(Vector3 pos){$/;"	m	class:Quixx.BasicTerrain	file:
+IsBitSet	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/MeshFactory.cs	/^        static bool IsBitSet(int b, int pos)$/;"	m	class:Quixel.MeshFactory	file:
+IsBitSet	/Users/benandlucy/Desktop/Quixel/Assets/script/MeshFactory.cs	/^        static bool IsBitSet(int b, int pos)$/;"	m	class:Quixell.MeshFactory	file:
+IsBitSet	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/MeshFactory.cs	/^        static bool IsBitSet(int b, int pos)$/;"	m	class:Quixx.MeshFactory	file:
+IsGrounded	/Users/benandlucy/Desktop/Quixel/Assets/Standard Assets/Character Controllers/Sources/Scripts/CharacterMotor.js	/^function IsGrounded () {$/;"	f
+IsGrounded	/Users/benandlucy/Desktop/Quixel/Assets/Standard Assets/Character Controllers/Sources/Scripts/ThirdPersonController.js	/^function IsGrounded () {$/;"	f
+IsGroundedWithTimeout	/Users/benandlucy/Desktop/Quixel/Assets/Standard Assets/Character Controllers/Sources/Scripts/ThirdPersonController.js	/^function IsGroundedWithTimeout ()$/;"	f
+IsJumping	/Users/benandlucy/Desktop/Quixel/Assets/Standard Assets/Character Controllers/Sources/Scripts/CharacterMotor.js	/^function IsJumping () {$/;"	f
+IsJumping	/Users/benandlucy/Desktop/Quixel/Assets/Standard Assets/Character Controllers/Sources/Scripts/ThirdPersonController.js	/^function IsJumping () {$/;"	f
+IsMovingBackwards	/Users/benandlucy/Desktop/Quixel/Assets/Standard Assets/Character Controllers/Sources/Scripts/ThirdPersonController.js	/^function IsMovingBackwards () {$/;"	f
+IsSliding	/Users/benandlucy/Desktop/Quixel/Assets/Standard Assets/Character Controllers/Sources/Scripts/CharacterMotor.js	/^function IsSliding () {$/;"	f
+IsTouchingCeiling	/Users/benandlucy/Desktop/Quixel/Assets/Standard Assets/Character Controllers/Sources/Scripts/CharacterMotor.js	/^function IsTouchingCeiling () {$/;"	f
+LOD	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/MeshFactory.cs	/^            public int LOD;$/;"	f	class:Quixel.MeshFactory.MeshRequest
+LOD	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Nodes.cs	/^        public int LOD;$/;"	f	class:Quixel.Node
+LOD	/Users/benandlucy/Desktop/Quixel/Assets/script/MeshFactory.cs	/^            public int LOD;$/;"	f	class:Quixell.MeshFactory.MeshRequest
+LOD	/Users/benandlucy/Desktop/Quixel/Assets/script/Nodes.cs	/^        public int LOD;$/;"	f	class:Quixell.Node
+LOD	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/MeshFactory.cs	/^            public int LOD;$/;"	f	class:Quixx.MeshFactory.MeshRequest
+LOD	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/node.cs	/^        public int LOD;$/;"	f	class:Quixx.Node
+LODRange	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Nodes.cs	/^        public static int[] LODRange = new int[11] {$/;"	f	class:Quixel.NodeManager
+LODRange	/Users/benandlucy/Desktop/Quixel/Assets/script/Nodes.cs	/^        public static int[] LODRange = new int[11] {$/;"	f	class:Quixell.NodeManager
+LODRange	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/node.cs	/^        public static int[] LODRange = new int[11] {$/;"	f	class:Quixx.NodeManager
+LODSize	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Nodes.cs	/^        public static int[] LODSize = new int[11] {$/;"	f	class:Quixel.NodeManager
+LODSize	/Users/benandlucy/Desktop/Quixel/Assets/script/Nodes.cs	/^        public static int[] LODSize = new int[11] {$/;"	f	class:Quixell.NodeManager
+LODSize	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/node.cs	/^        public static int[] LODSize = new int[11] {$/;"	f	class:Quixx.NodeManager
+LateUpdate	/Users/benandlucy/Desktop/Quixel/Assets/Standard Assets/Character Controllers/Sources/Scripts/ThirdPersonCamera.js	/^function LateUpdate () {$/;"	f
+Materials	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Utilities.cs	/^        public byte[, ,] Materials;$/;"	f	class:Quixel.DensityData
+Materials	/Users/benandlucy/Desktop/Quixel/Assets/script/Utilities.cs	/^        public byte[, ,] Materials;$/;"	f	class:Quixell.DensityData
+Materials	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/Utilities.cs	/^        public byte[, ,] Materials;$/;"	f	class:Quixx.DensityData
+MeshData	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Utilities.cs	/^    internal class MeshData$/;"	c	namespace:Quixel
+MeshData	/Users/benandlucy/Desktop/Quixel/Assets/script/Utilities.cs	/^    internal class MeshData$/;"	c	namespace:Quixell
+MeshData	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/Utilities.cs	/^    internal class MeshData$/;"	c	namespace:Quixx
+MeshFactory	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/MeshFactory.cs	/^    internal static class MeshFactory$/;"	c	namespace:Quixel
+MeshFactory	/Users/benandlucy/Desktop/Quixel/Assets/script/MeshFactory.cs	/^    internal static class MeshFactory$/;"	c	namespace:Quixell
+MeshFactory	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/MeshFactory.cs	/^    internal static class MeshFactory$/;"	c	namespace:Quixx
+MeshRequest	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/MeshFactory.cs	/^        public class MeshRequest$/;"	c	class:Quixel.MeshFactory
+MeshRequest	/Users/benandlucy/Desktop/Quixel/Assets/script/MeshFactory.cs	/^        public class MeshRequest$/;"	c	class:Quixell.MeshFactory
+MeshRequest	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/MeshFactory.cs	/^        public class MeshRequest$/;"	c	class:Quixx.MeshFactory
+MouseLook	/Users/benandlucy/Desktop/Quixel/Assets/Standard Assets/Character Controllers/Sources/Scripts/MouseLook.cs	/^public class MouseLook : MonoBehaviour {$/;"	c
+MouseX	/Users/benandlucy/Desktop/Quixel/Assets/Standard Assets/Character Controllers/Sources/Scripts/MouseLook.cs	/^	public enum RotationAxes { MouseXAndY = 0, MouseX = 1, MouseY = 2 }$/;"	e	enum:MouseLook.RotationAxes	file:
+MouseXAndY	/Users/benandlucy/Desktop/Quixel/Assets/Standard Assets/Character Controllers/Sources/Scripts/MouseLook.cs	/^	public enum RotationAxes { MouseXAndY = 0, MouseX = 1, MouseY = 2 }$/;"	e	enum:MouseLook.RotationAxes	file:
+MouseY	/Users/benandlucy/Desktop/Quixel/Assets/Standard Assets/Character Controllers/Sources/Scripts/MouseLook.cs	/^	public enum RotationAxes { MouseXAndY = 0, MouseX = 1, MouseY = 2 }$/;"	e	enum:MouseLook.RotationAxes	file:
+Node	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Nodes.cs	/^        public Node(Node parent, Vector3 position, int subNodeID, int LOD, RenderType renderType)$/;"	m	class:Quixel.Node
+Node	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Nodes.cs	/^    internal class Node$/;"	c	namespace:Quixel
+Node	/Users/benandlucy/Desktop/Quixel/Assets/script/Nodes.cs	/^        public Node(Node parent, Vector3 position, int subNodeID, int LOD, RenderType renderType)$/;"	m	class:Quixell.Node
+Node	/Users/benandlucy/Desktop/Quixel/Assets/script/Nodes.cs	/^    internal class Node$/;"	c	namespace:Quixell
+Node	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/node.cs	/^        public Node(Node parent, Vector3 position, int subNodeID, int LOD, RenderType renderType)$/;"	m	class:Quixx.Node
+Node	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/node.cs	/^    internal class Node$/;"	c	namespace:Quixx
+NodeEditor	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/NodeEditor.cs	/^    public static class NodeEditor$/;"	c	namespace:Quixel
+NodeEditor	/Users/benandlucy/Desktop/Quixel/Assets/script/NodeEditor.cs	/^    public static class NodeEditor$/;"	c	namespace:Quixell
+NodeManager	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Nodes.cs	/^    internal static class NodeManager$/;"	c	namespace:Quixel
+NodeManager	/Users/benandlucy/Desktop/Quixel/Assets/script/Nodes.cs	/^    internal static class NodeManager$/;"	c	namespace:Quixell
+NodeManager	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/node.cs	/^    internal static class NodeManager$/;"	c	namespace:Quixx
+OnApplicationQuit	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/TerrainController.cs	/^	void OnApplicationQuit() {$/;"	m	class:TerrainController	file:
+OnControllerColliderHit	/Users/benandlucy/Desktop/Quixel/Assets/Standard Assets/Character Controllers/Sources/Scripts/CharacterMotor.js	/^function OnControllerColliderHit (hit : ControllerColliderHit) {$/;"	f
+OnControllerColliderHit	/Users/benandlucy/Desktop/Quixel/Assets/Standard Assets/Character Controllers/Sources/Scripts/ThirdPersonController.js	/^function OnControllerColliderHit (hit : ControllerColliderHit )$/;"	f
+ProjectOntoPlane	/Users/benandlucy/Desktop/Quixel/Assets/Standard Assets/Character Controllers/Sources/Scripts/PlatformInputController.js	/^function ProjectOntoPlane (v : Vector3, normal : Vector3) {$/;"	f
+Quixel	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/ITerrainGenerator.cs	/^namespace Quixel$/;"	n
+Quixel	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/MeshFactory.cs	/^namespace Quixel$/;"	n
+Quixel	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/NodeEditor.cs	/^namespace Quixel$/;"	n
+Quixel	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Nodes.cs	/^namespace Quixel$/;"	n
+Quixel	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Pooling.cs	/^namespace Quixel$/;"	n
+Quixel	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/QuixelEngine.cs	/^namespace Quixel$/;"	n
+Quixel	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Threading.cs	/^namespace Quixel$/;"	n
+Quixel	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Utilities.cs	/^namespace Quixel$/;"	n
+QuixelEngine	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/QuixelEngine.cs	/^    public static class QuixelEngine$/;"	c	namespace:Quixel
+QuixelEngine	/Users/benandlucy/Desktop/Quixel/Assets/script/QuixelEngine.cs	/^    public static class QuixelEngine$/;"	c	namespace:Quixell
+QuixelEngine	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/QuixelEngine.cs	/^  public static class QuixelEngine$/;"	c	namespace:Quixx
+Quixell	/Users/benandlucy/Desktop/Quixel/Assets/script/ITerrainGenerator.cs	/^namespace Quixell$/;"	n
+Quixell	/Users/benandlucy/Desktop/Quixel/Assets/script/MeshFactory.cs	/^namespace Quixell$/;"	n
+Quixell	/Users/benandlucy/Desktop/Quixel/Assets/script/NodeEditor.cs	/^namespace Quixell$/;"	n
+Quixell	/Users/benandlucy/Desktop/Quixel/Assets/script/Nodes.cs	/^namespace Quixell$/;"	n
+Quixell	/Users/benandlucy/Desktop/Quixel/Assets/script/Pooling.cs	/^namespace Quixell$/;"	n
+Quixell	/Users/benandlucy/Desktop/Quixel/Assets/script/QuixelEngine.cs	/^namespace Quixell$/;"	n
+Quixell	/Users/benandlucy/Desktop/Quixel/Assets/script/Threading.cs	/^namespace Quixell$/;"	n
+Quixell	/Users/benandlucy/Desktop/Quixel/Assets/script/Utilities.cs	/^namespace Quixell$/;"	n
+Quixx	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/ITerrainGenerator.cs	/^namespace Quixx$/;"	n
+Quixx	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/MeshFactory.cs	/^namespace Quixx$/;"	n
+Quixx	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/Pooling.cs	/^namespace Quixx$/;"	n
+Quixx	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/QuixelEngine.cs	/^namespace Quixx$/;"	n
+Quixx	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/Threading.cs	/^namespace Quixx$/;"	n
+Quixx	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/Utilities.cs	/^namespace Quixx$/;"	n
+Quixx	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/node.cs	/^namespace Quixx$/;"	n
+RenderType	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Nodes.cs	/^        public enum RenderType$/;"	g	class:Quixel.Node
+RenderType	/Users/benandlucy/Desktop/Quixel/Assets/script/Nodes.cs	/^        public enum RenderType$/;"	g	class:Quixell.Node
+RenderType	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/node.cs	/^        public enum RenderType$/;"	g	class:Quixx.Node
+Reset	/Users/benandlucy/Desktop/Quixel/Assets/Standard Assets/Character Controllers/Sources/Scripts/ThirdPersonController.js	/^function Reset ()$/;"	f
+RotationAxes	/Users/benandlucy/Desktop/Quixel/Assets/Standard Assets/Character Controllers/Sources/Scripts/MouseLook.cs	/^	public enum RotationAxes { MouseXAndY = 0, MouseX = 1, MouseY = 2 }$/;"	g	class:MouseLook
+SPHERE	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/NodeEditor.cs	/^            BOX, SPHERE$/;"	e	enum:Quixel.NodeEditor.BrushType	file:
+SPHERE	/Users/benandlucy/Desktop/Quixel/Assets/script/NodeEditor.cs	/^            BOX, SPHERE$/;"	e	enum:Quixell.NodeEditor.BrushType	file:
+SetControllable	/Users/benandlucy/Desktop/Quixel/Assets/Standard Assets/Character Controllers/Sources/Scripts/CharacterMotor.js	/^function SetControllable (controllable : boolean) {$/;"	f
+SetUpRotation	/Users/benandlucy/Desktop/Quixel/Assets/Standard Assets/Character Controllers/Sources/Scripts/ThirdPersonCamera.js	/^function SetUpRotation (centerPos : Vector3, headPos : Vector3)$/;"	f
+SetVelocity	/Users/benandlucy/Desktop/Quixel/Assets/Standard Assets/Character Controllers/Sources/Scripts/CharacterMotor.js	/^function SetVelocity (velocity : Vector3) {$/;"	f
+Start	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/TerrainController.cs	/^	void Start () {$/;"	m	class:TerrainController	file:
+Start	/Users/benandlucy/Desktop/Quixel/Assets/Standard Assets/Character Controllers/Sources/Scripts/MouseLook.cs	/^	void Start ()$/;"	m	class:MouseLook	file:
+Subtract	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Utilities.cs	/^        public Vector3I Subtract(Vector3I other)$/;"	m	struct:Quixel.Vector3I
+Subtract	/Users/benandlucy/Desktop/Quixel/Assets/script/Utilities.cs	/^        public Vector3I Subtract(Vector3I other)$/;"	m	struct:Quixell.Vector3I
+Subtract	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/Utilities.cs	/^        public Vector3I Subtract(Vector3I other)$/;"	m	struct:Quixx.Vector3I
+TerrainController	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/TerrainController.cs	/^public class TerrainController : MonoBehaviour {$/;"	c
+ToString	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Nodes.cs	/^        public override string ToString()$/;"	m	class:Quixel.Node
+ToString	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Utilities.cs	/^        public override string ToString()$/;"	m	struct:Quixel.Vector3I
+ToString	/Users/benandlucy/Desktop/Quixel/Assets/script/Nodes.cs	/^        public override string ToString()$/;"	m	class:Quixell.Node
+ToString	/Users/benandlucy/Desktop/Quixel/Assets/script/Utilities.cs	/^        public override string ToString()$/;"	m	struct:Quixell.Vector3I
+ToString	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/Utilities.cs	/^        public override string ToString()$/;"	m	struct:Quixx.Vector3I
+ToString	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/node.cs	/^        public override string ToString()$/;"	m	class:Quixx.Node
+TooSteep	/Users/benandlucy/Desktop/Quixel/Assets/Standard Assets/Character Controllers/Sources/Scripts/CharacterMotor.js	/^function TooSteep () {$/;"	f
+Triangle	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Utilities.cs	/^        public Triangle(Vector3 PointOne, Vector3 PointTwo, Vector3 PointThree, Vector3 nOne, Vector3 nTwo, Vector3 nThree)$/;"	m	struct:Quixel.Triangle
+Triangle	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Utilities.cs	/^    internal struct Triangle$/;"	s	namespace:Quixel
+Triangle	/Users/benandlucy/Desktop/Quixel/Assets/script/Utilities.cs	/^        public Triangle(Vector3 PointOne, Vector3 PointTwo, Vector3 PointThree, Vector3 nOne, Vector3 nTwo, Vector3 nThree)$/;"	m	struct:Quixell.Triangle
+Triangle	/Users/benandlucy/Desktop/Quixel/Assets/script/Utilities.cs	/^    internal struct Triangle$/;"	s	namespace:Quixell
+Triangle	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/Utilities.cs	/^        public Triangle(Vector3 PointOne, Vector3 PointTwo, Vector3 PointThree, Vector3 nOne, Vector3 nTwo, Vector3 nThree)$/;"	m	struct:Quixx.Triangle
+Triangle	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/Utilities.cs	/^    internal struct Triangle$/;"	s	namespace:Quixx
+Update	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/TerrainController.cs	/^	void Update () {$/;"	m	class:TerrainController	file:
+Update	/Users/benandlucy/Desktop/Quixel/Assets/Standard Assets/Character Controllers/Sources/Scripts/CharacterMotor.js	/^function Update () {$/;"	f
+Update	/Users/benandlucy/Desktop/Quixel/Assets/Standard Assets/Character Controllers/Sources/Scripts/FPSInputController.js	/^function Update () {$/;"	f
+Update	/Users/benandlucy/Desktop/Quixel/Assets/Standard Assets/Character Controllers/Sources/Scripts/MouseLook.cs	/^	void Update ()$/;"	m	class:MouseLook	file:
+Update	/Users/benandlucy/Desktop/Quixel/Assets/Standard Assets/Character Controllers/Sources/Scripts/PlatformInputController.js	/^function Update () {$/;"	f
+Update	/Users/benandlucy/Desktop/Quixel/Assets/Standard Assets/Character Controllers/Sources/Scripts/ThirdPersonController.js	/^function Update() {$/;"	f
+UpdateSmoothedMovementDirection	/Users/benandlucy/Desktop/Quixel/Assets/Standard Assets/Character Controllers/Sources/Scripts/ThirdPersonController.js	/^function UpdateSmoothedMovementDirection ()$/;"	f
+Values	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Utilities.cs	/^        public float[, ,] Values;$/;"	f	class:Quixel.DensityData
+Values	/Users/benandlucy/Desktop/Quixel/Assets/script/Utilities.cs	/^        public float[, ,] Values;$/;"	f	class:Quixell.DensityData
+Values	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/Utilities.cs	/^        public float[, ,] Values;$/;"	f	class:Quixx.DensityData
+Vector3I	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Utilities.cs	/^        public Vector3I(int x, int y, int z)$/;"	m	struct:Quixel.Vector3I
+Vector3I	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Utilities.cs	/^    internal struct Vector3I$/;"	s	namespace:Quixel
+Vector3I	/Users/benandlucy/Desktop/Quixel/Assets/script/Utilities.cs	/^        public Vector3I(int x, int y, int z)$/;"	m	struct:Quixell.Vector3I
+Vector3I	/Users/benandlucy/Desktop/Quixel/Assets/script/Utilities.cs	/^    internal struct Vector3I$/;"	s	namespace:Quixell
+Vector3I	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/Utilities.cs	/^        public Vector3I(int x, int y, int z)$/;"	m	struct:Quixx.Vector3I
+Vector3I	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/Utilities.cs	/^    internal struct Vector3I$/;"	s	namespace:Quixx
+VertexInterp	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/MeshFactory.cs	/^        private static Vector3[] VertexInterp(float isolevel, Vector3 p1, Vector3 p2, float valp1, float valp2, Vector3 n1, Vector3 n2)$/;"	m	class:Quixel.MeshFactory	file:
+VertexInterp	/Users/benandlucy/Desktop/Quixel/Assets/script/MeshFactory.cs	/^        private static Vector3[] VertexInterp(float isolevel, Vector3 p1, Vector3 p2, float valp1, float valp2, Vector3 n1, Vector3 n2)$/;"	m	class:Quixell.MeshFactory	file:
+VertexInterp	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/MeshFactory.cs	/^        private static Vector3[] VertexInterp(float isolevel, Vector3 p1, Vector3 p2, float valp1, float valp2, Vector3 n1, Vector3 n2)$/;"	m	class:Quixx.MeshFactory	file:
+VoxelData	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/ITerrainGenerator.cs	/^    public struct VoxelData$/;"	s	namespace:Quixel
+VoxelData	/Users/benandlucy/Desktop/Quixel/Assets/script/ITerrainGenerator.cs	/^    public struct VoxelData$/;"	s	namespace:Quixell
+VoxelData	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/ITerrainGenerator.cs	/^  public struct VoxelData$/;"	s	namespace:Quixx
+active	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/QuixelEngine.cs	/^        private static bool active = true;$/;"	f	class:Quixel.QuixelEngine	file:
+active	/Users/benandlucy/Desktop/Quixel/Assets/script/QuixelEngine.cs	/^        private static bool active = true;$/;"	f	class:Quixell.QuixelEngine	file:
+active	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/QuixelEngine.cs	/^    private static bool active = true;$/;"	f	class:Quixx.QuixelEngine	file:
+angularMaxSpeed	/Users/benandlucy/Desktop/Quixel/Assets/Standard Assets/Character Controllers/Sources/Scripts/ThirdPersonCamera.js	/^var angularMaxSpeed = 15.0;$/;"	v
+angularSmoothLag	/Users/benandlucy/Desktop/Quixel/Assets/Standard Assets/Character Controllers/Sources/Scripts/ThirdPersonCamera.js	/^var angularSmoothLag = 0.3;$/;"	v
+applyBrush	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/NodeEditor.cs	/^        public static void applyBrush(BrushType type, int size, Vector3 pos, float val)$/;"	m	class:Quixel.NodeEditor
+applyBrush	/Users/benandlucy/Desktop/Quixel/Assets/script/NodeEditor.cs	/^        public static void applyBrush(BrushType type, int size, Vector3 pos, float val)$/;"	m	class:Quixell.NodeEditor
+applyChanges	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Utilities.cs	/^        public void applyChanges(DensityData other)$/;"	m	class:Quixel.DensityData
+applyChanges	/Users/benandlucy/Desktop/Quixel/Assets/script/Utilities.cs	/^        public void applyChanges(DensityData other)$/;"	m	class:Quixell.DensityData
+applyChanges	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/Utilities.cs	/^        public void applyChanges(DensityData other)$/;"	m	class:Quixx.DensityData
+applyHeal	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/NodeEditor.cs	/^        public static void applyHeal(BrushType type, int size, Vector3 pos)$/;"	m	class:Quixel.NodeEditor
+applyHeal	/Users/benandlucy/Desktop/Quixel/Assets/script/NodeEditor.cs	/^        public static void applyHeal(BrushType type, int size, Vector3 pos)$/;"	m	class:Quixell.NodeEditor
+applyPaint	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/NodeEditor.cs	/^        public static void applyPaint(BrushType type, int size, Vector3 pos, bool regen)$/;"	m	class:Quixel.NodeEditor
+applyPaint	/Users/benandlucy/Desktop/Quixel/Assets/script/NodeEditor.cs	/^        public static void applyPaint(BrushType type, int size, Vector3 pos, bool regen)$/;"	m	class:Quixell.NodeEditor
+autoRotate	/Users/benandlucy/Desktop/Quixel/Assets/Standard Assets/Character Controllers/Sources/Scripts/PlatformInputController.js	/^var autoRotate : boolean = true;$/;"	v
+axes	/Users/benandlucy/Desktop/Quixel/Assets/Standard Assets/Character Controllers/Sources/Scripts/MouseLook.cs	/^	public RotationAxes axes = RotationAxes.MouseXAndY;$/;"	f	class:MouseLook
+baseHeight	/Users/benandlucy/Desktop/Quixel/Assets/Standard Assets/Character Controllers/Sources/Scripts/CharacterMotor.js	/^	var baseHeight : float = 1.0;$/;"	v
+calculateDensity	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/ITerrainGenerator.cs	/^        VoxelData calculateDensity(Vector3 pos);$/;"	m	interface:Quixel.IGenerator
+calculateDensity	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/MeshFactory.cs	/^        private static VoxelData calculateDensity(Node node, Vector3I pos)$/;"	m	class:Quixel.MeshFactory	file:
+calculateDensity	/Users/benandlucy/Desktop/Quixel/Assets/script/ITerrainGenerator.cs	/^        VoxelData calculateDensity(Vector3 pos);$/;"	m	interface:Quixell.IGenerator
+calculateDensity	/Users/benandlucy/Desktop/Quixel/Assets/script/MeshFactory.cs	/^        private static VoxelData calculateDensity(Node node, Vector3I pos)$/;"	m	class:Quixell.MeshFactory	file:
+calculateDensity	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/ITerrainGenerator.cs	/^    VoxelData calculateDensity(Vector3 pos);$/;"	m	interface:Quixx.IGenerator
+calculateDensity	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/MeshFactory.cs	/^        private static VoxelData calculateDensity(Node node, Vector3I pos)$/;"	m	class:Quixx.MeshFactory	file:
+calculateDensityNormal	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/MeshFactory.cs	/^        private static Vector3 calculateDensityNormal(Vector3I p, DensityData densities, int lod)$/;"	m	class:Quixel.MeshFactory	file:
+calculateDensityNormal	/Users/benandlucy/Desktop/Quixel/Assets/script/MeshFactory.cs	/^        private static Vector3 calculateDensityNormal(Vector3I p, DensityData densities, int lod)$/;"	m	class:Quixell.MeshFactory	file:
+calculateDensityNormal	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/MeshFactory.cs	/^        private static Vector3 calculateDensityNormal(Vector3I p, DensityData densities, int lod)$/;"	m	class:Quixx.MeshFactory	file:
+cameraObj	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/QuixelEngine.cs	/^        private static GameObject cameraObj;$/;"	f	class:Quixel.QuixelEngine	file:
+cameraObj	/Users/benandlucy/Desktop/Quixel/Assets/script/QuixelEngine.cs	/^        private static GameObject cameraObj;$/;"	f	class:Quixell.QuixelEngine	file:
+cameraObj	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/QuixelEngine.cs	/^    private static GameObject cameraObj;$/;"	f	class:Quixx.QuixelEngine	file:
+cameraTransform	/Users/benandlucy/Desktop/Quixel/Assets/Standard Assets/Character Controllers/Sources/Scripts/ThirdPersonCamera.js	/^var cameraTransform : Transform;$/;"	v
+canJump	/Users/benandlucy/Desktop/Quixel/Assets/Standard Assets/Character Controllers/Sources/Scripts/ThirdPersonController.js	/^var canJump = true;$/;"	v
+center	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Nodes.cs	/^        public Vector3 center;$/;"	f	class:Quixel.Node
+center	/Users/benandlucy/Desktop/Quixel/Assets/script/Nodes.cs	/^        public Vector3 center;$/;"	f	class:Quixell.Node
+center	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/node.cs	/^        public Vector3 center;$/;"	f	class:Quixx.Node
+changeData	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Utilities.cs	/^        private DensityData changeData;$/;"	f	class:Quixel.DensityData	file:
+changeData	/Users/benandlucy/Desktop/Quixel/Assets/script/Utilities.cs	/^        private DensityData changeData;$/;"	f	class:Quixell.DensityData	file:
+changeData	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/Utilities.cs	/^        private DensityData changeData;$/;"	f	class:Quixx.DensityData	file:
+checkRangeIntersection	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Nodes.cs	/^        private bool checkRangeIntersection(Vector3 pos, float width)$/;"	m	class:Quixel.Node	file:
+checkRangeIntersection	/Users/benandlucy/Desktop/Quixel/Assets/script/Nodes.cs	/^        private bool checkRangeIntersection(Vector3 pos, float width)$/;"	m	class:Quixell.Node	file:
+checkRangeIntersection	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/node.cs	/^        private bool checkRangeIntersection(Vector3 pos, float width)$/;"	m	class:Quixx.Node	file:
+chunk	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Nodes.cs	/^        private GameObject chunk;$/;"	f	class:Quixel.Node	file:
+chunk	/Users/benandlucy/Desktop/Quixel/Assets/script/Nodes.cs	/^        private GameObject chunk;$/;"	f	class:Quixell.Node	file:
+chunk	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/node.cs	/^        private GameObject chunk;$/;"	f	class:Quixx.Node	file:
+chunkList	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Pooling.cs	/^        public static List<GameObject> chunkList = new List<GameObject>();$/;"	f	class:Quixel.ChunkPool
+chunkList	/Users/benandlucy/Desktop/Quixel/Assets/script/Pooling.cs	/^        public static List<GameObject> chunkList = new List<GameObject>();$/;"	f	class:Quixell.ChunkPool
+chunkList	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/Pooling.cs	/^        public static List<GameObject> chunkList = new List<GameObject>();$/;"	f	class:Quixx.ChunkPool
+chunkObj	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/MeshFactory.cs	/^        public static GameObject chunkObj;$/;"	f	class:Quixel.MeshFactory
+chunkObj	/Users/benandlucy/Desktop/Quixel/Assets/script/MeshFactory.cs	/^        public static GameObject chunkObj;$/;"	f	class:Quixell.MeshFactory
+chunkObj	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/MeshFactory.cs	/^        public static GameObject chunkObj;$/;"	f	class:Quixx.MeshFactory
+chunkPos	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Nodes.cs	/^        public Vector3I chunkPos;$/;"	f	class:Quixel.Node
+chunkPos	/Users/benandlucy/Desktop/Quixel/Assets/script/Nodes.cs	/^        public Vector3I chunkPos;$/;"	f	class:Quixell.Node
+chunkPos	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/node.cs	/^        public Vector3I chunkPos;$/;"	f	class:Quixx.Node
+chunksFinished	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/MeshFactory.cs	/^        public static int chunksFinished = 0;$/;"	f	class:Quixel.MeshFactory
+chunksFinished	/Users/benandlucy/Desktop/Quixel/Assets/script/MeshFactory.cs	/^        public static int chunksFinished = 0;$/;"	f	class:Quixell.MeshFactory
+chunksFinished	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/MeshFactory.cs	/^        public static int chunksFinished = 0;$/;"	f	class:Quixx.MeshFactory
+clampHeadPositionScreenSpace	/Users/benandlucy/Desktop/Quixel/Assets/Standard Assets/Character Controllers/Sources/Scripts/ThirdPersonCamera.js	/^var clampHeadPositionScreenSpace = 0.75;$/;"	v
+collides	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Nodes.cs	/^        public bool collides = false;$/;"	f	class:Quixel.Node
+collides	/Users/benandlucy/Desktop/Quixel/Assets/script/Nodes.cs	/^        public bool collides = false;$/;"	f	class:Quixell.Node
+collides	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/node.cs	/^        public bool collides = false;$/;"	f	class:Quixx.Node
+commitLoop	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Threading.cs	/^        private void commitLoop()$/;"	m	class:Quixel.FileThread	file:
+commitLoop	/Users/benandlucy/Desktop/Quixel/Assets/script/Threading.cs	/^        private void commitLoop()$/;"	m	class:Quixell.FileThread	file:
+commitLoop	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/Threading.cs	/^        private void commitLoop()$/;"	m	class:Quixx.FileThread	file:
+compressDensityData	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Utilities.cs	/^        public float[] compressDensityData()$/;"	m	class:Quixel.DensityData
+compressDensityData	/Users/benandlucy/Desktop/Quixel/Assets/script/Utilities.cs	/^        public float[] compressDensityData()$/;"	m	class:Quixell.DensityData
+compressDensityData	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/Utilities.cs	/^        public float[] compressDensityData()$/;"	m	class:Quixx.DensityData
+compressMaterialData	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Utilities.cs	/^        public int[] compressMaterialData()$/;"	m	class:Quixel.DensityData
+compressMaterialData	/Users/benandlucy/Desktop/Quixel/Assets/script/Utilities.cs	/^        public int[] compressMaterialData()$/;"	m	class:Quixell.DensityData
+compressMaterialData	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/Utilities.cs	/^        public int[] compressMaterialData()$/;"	m	class:Quixx.DensityData
+containsDensityPoint	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Nodes.cs	/^        public bool containsDensityPoint(Vector3 pos)$/;"	m	class:Quixel.Node
+containsDensityPoint	/Users/benandlucy/Desktop/Quixel/Assets/script/Nodes.cs	/^        public bool containsDensityPoint(Vector3 pos)$/;"	m	class:Quixell.Node
+containsDensityPoint	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/node.cs	/^        public bool containsDensityPoint(Vector3 pos)$/;"	m	class:Quixx.Node
+containsPoint	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Nodes.cs	/^        public bool containsPoint(Vector3 pos)$/;"	m	class:Quixel.Node
+containsPoint	/Users/benandlucy/Desktop/Quixel/Assets/script/Nodes.cs	/^        public bool containsPoint(Vector3 pos)$/;"	m	class:Quixell.Node
+containsPoint	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/node.cs	/^        public bool containsPoint(Vector3 pos)$/;"	m	class:Quixx.Node
+createSubNodes	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Nodes.cs	/^        public void createSubNodes(RenderType type)$/;"	m	class:Quixel.Node
+createSubNodes	/Users/benandlucy/Desktop/Quixel/Assets/script/Nodes.cs	/^        public void createSubNodes(RenderType type)$/;"	m	class:Quixell.Node
+createSubNodes	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/node.cs	/^        public void createSubNodes(RenderType type)$/;"	m	class:Quixx.Node
+curBottomNode	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Nodes.cs	/^        public static Vector3I curBottomNode = new Vector3I(-111, 0, 0);$/;"	f	class:Quixel.NodeManager
+curBottomNode	/Users/benandlucy/Desktop/Quixel/Assets/script/Nodes.cs	/^        public static Vector3I curBottomNode = new Vector3I(-111, 0, 0);$/;"	f	class:Quixell.NodeManager
+curBottomNode	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/node.cs	/^        public static Vector3I curBottomNode = new Vector3I(-111, 0, 0);$/;"	f	class:Quixx.NodeManager
+curTopNode	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Nodes.cs	/^        public static Vector3I curTopNode = new Vector3I(0, 0, 0);$/;"	f	class:Quixel.NodeManager
+curTopNode	/Users/benandlucy/Desktop/Quixel/Assets/script/Nodes.cs	/^        public static Vector3I curTopNode = new Vector3I(0, 0, 0);$/;"	f	class:Quixell.NodeManager
+curTopNode	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/node.cs	/^        public static Vector3I curTopNode = new Vector3I(0, 0, 0);$/;"	f	class:Quixx.NodeManager
+currentHeight	/Users/benandlucy/Desktop/Quixel/Assets/Standard Assets/Character Controllers/Sources/Scripts/ThirdPersonCamera.js	/^	var currentHeight = cameraTransform.position.y;$/;"	v
+currentMovementOffset	/Users/benandlucy/Desktop/Quixel/Assets/Standard Assets/Character Controllers/Sources/Scripts/CharacterMotor.js	/^	var currentMovementOffset : Vector3 = velocity * Time.deltaTime;$/;"	v
+currentRotation	/Users/benandlucy/Desktop/Quixel/Assets/Standard Assets/Character Controllers/Sources/Scripts/ThirdPersonCamera.js	/^	var currentRotation = Quaternion.Euler (0, currentAngle, 0);$/;"	v
+debugDraw	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/MeshFactory.cs	/^        public static void debugDraw()$/;"	m	class:Quixel.MeshFactory
+debugDraw	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Nodes.cs	/^        public int debugDraw()$/;"	m	class:Quixel.Node
+debugDraw	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Nodes.cs	/^        public static int debugDraw()$/;"	m	class:Quixel.NodeManager
+debugDraw	/Users/benandlucy/Desktop/Quixel/Assets/script/MeshFactory.cs	/^        public static void debugDraw()$/;"	m	class:Quixell.MeshFactory
+debugDraw	/Users/benandlucy/Desktop/Quixel/Assets/script/Nodes.cs	/^        public int debugDraw()$/;"	m	class:Quixell.Node
+debugDraw	/Users/benandlucy/Desktop/Quixel/Assets/script/Nodes.cs	/^        public static int debugDraw()$/;"	m	class:Quixell.NodeManager
+debugDraw	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/MeshFactory.cs	/^        public static void debugDraw()$/;"	m	class:Quixx.MeshFactory
+debugDraw	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/node.cs	/^        public int debugDraw()$/;"	m	class:Quixx.Node
+debugDraw	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/node.cs	/^        public static int debugDraw()$/;"	m	class:Quixx.NodeManager
+decompressDensityData	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Utilities.cs	/^        public void decompressDensityData(float[] data)$/;"	m	class:Quixel.DensityData
+decompressDensityData	/Users/benandlucy/Desktop/Quixel/Assets/script/Utilities.cs	/^        public void decompressDensityData(float[] data)$/;"	m	class:Quixell.DensityData
+decompressDensityData	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/Utilities.cs	/^        public void decompressDensityData(float[] data)$/;"	m	class:Quixx.DensityData
+decompressMaterialData	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Utilities.cs	/^        public void decompressMaterialData(int[] data)$/;"	m	class:Quixel.DensityData
+decompressMaterialData	/Users/benandlucy/Desktop/Quixel/Assets/script/Utilities.cs	/^        public void decompressMaterialData(int[] data)$/;"	m	class:Quixell.DensityData
+decompressMaterialData	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/Utilities.cs	/^        public void decompressMaterialData(int[] data)$/;"	m	class:Quixx.DensityData
+densities	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/MeshFactory.cs	/^            public DensityData densities;$/;"	f	class:Quixel.MeshFactory.MeshRequest
+densities	/Users/benandlucy/Desktop/Quixel/Assets/script/MeshFactory.cs	/^            public DensityData densities;$/;"	f	class:Quixell.MeshFactory.MeshRequest
+densities	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/MeshFactory.cs	/^            public DensityData densities;$/;"	f	class:Quixx.MeshFactory.MeshRequest
+density	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/ITerrainGenerator.cs	/^        public float density;$/;"	f	struct:Quixel.VoxelData
+density	/Users/benandlucy/Desktop/Quixel/Assets/script/ITerrainGenerator.cs	/^        public float density;$/;"	f	struct:Quixell.VoxelData
+density	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/ITerrainGenerator.cs	/^      public float density;$/;"	f	struct:Quixx.VoxelData
+densityChangeData	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Nodes.cs	/^        public DensityData densityChangeData;$/;"	f	class:Quixel.Node
+densityChangeData	/Users/benandlucy/Desktop/Quixel/Assets/script/Nodes.cs	/^        public DensityData densityChangeData;$/;"	f	class:Quixell.Node
+densityChangeData	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/node.cs	/^        public DensityData densityChangeData;$/;"	f	class:Quixx.Node
+densityData	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Nodes.cs	/^        public DensityData densityData;$/;"	f	class:Quixel.Node
+densityData	/Users/benandlucy/Desktop/Quixel/Assets/script/Nodes.cs	/^        public DensityData densityData;$/;"	f	class:Quixell.Node
+densityData	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/node.cs	/^        public DensityData densityData;$/;"	f	class:Quixx.Node
+densityThread	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Pooling.cs	/^        private static DensityThread densityThread;$/;"	f	class:Quixel.DensityPool	file:
+densityThread	/Users/benandlucy/Desktop/Quixel/Assets/script/Pooling.cs	/^        private static DensityThread densityThread;$/;"	f	class:Quixell.DensityPool	file:
+densityThread	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/Pooling.cs	/^        private static DensityThread densityThread;$/;"	f	class:Quixx.DensityPool	file:
+desiredVelocity	/Users/benandlucy/Desktop/Quixel/Assets/Standard Assets/Character Controllers/Sources/Scripts/CharacterMotor.js	/^	var desiredVelocity : Vector3;$/;"	v
+dispose	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Nodes.cs	/^        public void dispose()$/;"	m	class:Quixel.Node
+dispose	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Utilities.cs	/^        public void dispose()$/;"	m	class:Quixel.DensityData
+dispose	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Utilities.cs	/^        public void dispose()$/;"	m	class:Quixel.MeshData
+dispose	/Users/benandlucy/Desktop/Quixel/Assets/script/Nodes.cs	/^        public void dispose()$/;"	m	class:Quixell.Node
+dispose	/Users/benandlucy/Desktop/Quixel/Assets/script/Utilities.cs	/^        public void dispose()$/;"	m	class:Quixell.DensityData
+dispose	/Users/benandlucy/Desktop/Quixel/Assets/script/Utilities.cs	/^        public void dispose()$/;"	m	class:Quixell.MeshData
+dispose	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/Utilities.cs	/^        public void dispose()$/;"	m	class:Quixx.DensityData
+dispose	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/Utilities.cs	/^        public void dispose()$/;"	m	class:Quixx.MeshData
+dispose	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/node.cs	/^        public void dispose()$/;"	m	class:Quixx.Node
+disposed	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Nodes.cs	/^        public bool disposed = false;$/;"	f	class:Quixel.Node
+disposed	/Users/benandlucy/Desktop/Quixel/Assets/script/Nodes.cs	/^        public bool disposed = false;$/;"	f	class:Quixell.Node
+disposed	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/node.cs	/^        public bool disposed = false;$/;"	f	class:Quixx.Node
+distance	/Users/benandlucy/Desktop/Quixel/Assets/Standard Assets/Character Controllers/Sources/Scripts/ThirdPersonCamera.js	/^var distance = 7.0;$/;"	v
+edgeTable	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/MeshFactory.cs	/^        static int[] edgeTable = new int[256] {$/;"	f	class:Quixel.MeshFactory	file:
+edgeTable	/Users/benandlucy/Desktop/Quixel/Assets/script/MeshFactory.cs	/^        static int[] edgeTable = new int[256] {$/;"	f	class:Quixell.MeshFactory	file:
+edgeTable	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/MeshFactory.cs	/^        static int[] edgeTable = new int[256] {$/;"	f	class:Quixx.MeshFactory	file:
+empty	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Nodes.cs	/^        public bool empty = true;$/;"	f	class:Quixel.Node
+empty	/Users/benandlucy/Desktop/Quixel/Assets/script/Nodes.cs	/^        public bool empty = true;$/;"	f	class:Quixell.Node
+empty	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/node.cs	/^        public bool empty = true;$/;"	f	class:Quixx.Node
+enqueueLoad	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Threading.cs	/^        public void enqueueLoad(Node node)$/;"	m	class:Quixel.FileThread
+enqueueLoad	/Users/benandlucy/Desktop/Quixel/Assets/script/Threading.cs	/^        public void enqueueLoad(Node node)$/;"	m	class:Quixell.FileThread
+enqueueLoad	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/Threading.cs	/^        public void enqueueLoad(Node node)$/;"	m	class:Quixx.FileThread
+enqueueSave	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Threading.cs	/^        public void enqueueSave(Node node)$/;"	m	class:Quixel.FileThread
+enqueueSave	/Users/benandlucy/Desktop/Quixel/Assets/script/Threading.cs	/^        public void enqueueSave(Node node)$/;"	m	class:Quixell.FileThread
+enqueueSave	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/Threading.cs	/^        public void enqueueSave(Node node)$/;"	m	class:Quixx.FileThread
+extraHeight	/Users/benandlucy/Desktop/Quixel/Assets/Standard Assets/Character Controllers/Sources/Scripts/CharacterMotor.js	/^	var extraHeight : float = 4.1;$/;"	v
+fileThread	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/MeshFactory.cs	/^        public static FileThread fileThread;$/;"	f	class:Quixel.MeshFactory
+fileThread	/Users/benandlucy/Desktop/Quixel/Assets/script/MeshFactory.cs	/^        public static FileThread fileThread;$/;"	f	class:Quixell.MeshFactory
+fileThread	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/MeshFactory.cs	/^        public static FileThread fileThread;$/;"	f	class:Quixx.MeshFactory
+findNeighbors	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Nodes.cs	/^        private void findNeighbors()$/;"	m	class:Quixel.Node	file:
+findNeighbors	/Users/benandlucy/Desktop/Quixel/Assets/script/Nodes.cs	/^        private void findNeighbors()$/;"	m	class:Quixell.Node	file:
+findNeighbors	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/node.cs	/^        private void findNeighbors()$/;"	m	class:Quixx.Node	file:
+finishedLoadQueue	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Threading.cs	/^        private Queue<Node> finishedLoadQueue;$/;"	f	class:Quixel.FileThread	file:
+finishedLoadQueue	/Users/benandlucy/Desktop/Quixel/Assets/script/Threading.cs	/^        private Queue<Node> finishedLoadQueue;$/;"	f	class:Quixell.FileThread	file:
+finishedLoadQueue	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/Threading.cs	/^        private Queue<Node> finishedLoadQueue;$/;"	f	class:Quixx.FileThread	file:
+finishedQueue	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Threading.cs	/^        private Queue<DensityData> finishedQueue;$/;"	f	class:Quixel.DensityThread	file:
+finishedQueue	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Threading.cs	/^        private Queue<MeshFactory.MeshRequest> finishedQueue;$/;"	f	class:Quixel.GeneratorThread	file:
+finishedQueue	/Users/benandlucy/Desktop/Quixel/Assets/script/Threading.cs	/^        private Queue<DensityData> finishedQueue;$/;"	f	class:Quixell.DensityThread	file:
+finishedQueue	/Users/benandlucy/Desktop/Quixel/Assets/script/Threading.cs	/^        private Queue<MeshFactory.MeshRequest> finishedQueue;$/;"	f	class:Quixell.GeneratorThread	file:
+finishedQueue	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/Threading.cs	/^        private Queue<DensityData> finishedQueue;$/;"	f	class:Quixx.DensityThread	file:
+finishedQueue	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/Threading.cs	/^        private Queue<MeshFactory.MeshRequest> finishedQueue;$/;"	f	class:Quixx.GeneratorThread	file:
+genQueue	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Threading.cs	/^        private Queue<DensityData> genQueue;$/;"	f	class:Quixel.DensityThread	file:
+genQueue	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Threading.cs	/^        private Queue<MeshFactory.MeshRequest> genQueue;$/;"	f	class:Quixel.GeneratorThread	file:
+genQueue	/Users/benandlucy/Desktop/Quixel/Assets/script/Threading.cs	/^        private Queue<DensityData> genQueue;$/;"	f	class:Quixell.DensityThread	file:
+genQueue	/Users/benandlucy/Desktop/Quixel/Assets/script/Threading.cs	/^        private Queue<MeshFactory.MeshRequest> genQueue;$/;"	f	class:Quixell.GeneratorThread	file:
+genQueue	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/Threading.cs	/^        private Queue<DensityData> genQueue;$/;"	f	class:Quixx.DensityThread	file:
+genQueue	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/Threading.cs	/^        private Queue<MeshFactory.MeshRequest> genQueue;$/;"	f	class:Quixx.GeneratorThread	file:
+generateLoop	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Threading.cs	/^        private void generateLoop()$/;"	m	class:Quixel.GeneratorThread	file:
+generateLoop	/Users/benandlucy/Desktop/Quixel/Assets/script/Threading.cs	/^        private void generateLoop()$/;"	m	class:Quixell.GeneratorThread	file:
+generateLoop	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/Threading.cs	/^        private void generateLoop()$/;"	m	class:Quixx.GeneratorThread	file:
+generateTriangles	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/MeshFactory.cs	/^        private static void generateTriangles(Node node, Vector3I pos, List<Triangle> triangleList, List<int> submeshIDList, int[] subMeshTriCount, DensityData densities, Vector3[, ,] densityNormals)$/;"	m	class:Quixel.MeshFactory	file:
+generateTriangles	/Users/benandlucy/Desktop/Quixel/Assets/script/MeshFactory.cs	/^        private static void generateTriangles(Node node, Vector3I pos, List<Triangle> triangleList, List<int> submeshIDList, int[] subMeshTriCount, DensityData densities, Vector3[, ,] densityNormals)$/;"	m	class:Quixell.MeshFactory	file:
+generateTriangles	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/MeshFactory.cs	/^        private static void generateTriangles(Node node, Vector3I pos, List<Triangle> triangleList, List<int> submeshIDList, int[] subMeshTriCount, DensityData densities, Vector3[, ,] densityNormals)$/;"	m	class:Quixx.MeshFactory	file:
+generatorThreads	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/MeshFactory.cs	/^        public static GeneratorThread[] generatorThreads = new GeneratorThread[4];$/;"	f	class:Quixel.MeshFactory
+generatorThreads	/Users/benandlucy/Desktop/Quixel/Assets/script/MeshFactory.cs	/^        public static GeneratorThread[] generatorThreads = new GeneratorThread[4];$/;"	f	class:Quixell.MeshFactory
+generatorThreads	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/MeshFactory.cs	/^        public static GeneratorThread[] generatorThreads = new GeneratorThread[4];$/;"	f	class:Quixx.MeshFactory
+get	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Utilities.cs	/^        public float get(Vector3I pos)$/;"	m	class:Quixel.DensityData
+get	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Utilities.cs	/^        public float get(int x, int y, int z)$/;"	m	class:Quixel.DensityData
+get	/Users/benandlucy/Desktop/Quixel/Assets/script/Utilities.cs	/^        public float get(Vector3I pos)$/;"	m	class:Quixell.DensityData
+get	/Users/benandlucy/Desktop/Quixel/Assets/script/Utilities.cs	/^        public float get(int x, int y, int z)$/;"	m	class:Quixell.DensityData
+get	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/Utilities.cs	/^        public float get(Vector3I pos)$/;"	m	class:Quixx.DensityData
+get	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/Utilities.cs	/^        public float get(int x, int y, int z)$/;"	m	class:Quixx.DensityData
+getChunk	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Pooling.cs	/^        public static GameObject getChunk()$/;"	m	class:Quixel.ChunkPool
+getChunk	/Users/benandlucy/Desktop/Quixel/Assets/script/Pooling.cs	/^        public static GameObject getChunk()$/;"	m	class:Quixell.ChunkPool
+getChunk	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/Pooling.cs	/^        public static GameObject getChunk()$/;"	m	class:Quixx.ChunkPool
+getCount	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Threading.cs	/^        public int getCount()$/;"	m	class:Quixel.GeneratorThread
+getCount	/Users/benandlucy/Desktop/Quixel/Assets/script/Threading.cs	/^        public int getCount()$/;"	m	class:Quixell.GeneratorThread
+getCount	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/Threading.cs	/^        public int getCount()$/;"	m	class:Quixx.GeneratorThread
+getDensityData	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Pooling.cs	/^        public static DensityData getDensityData()$/;"	m	class:Quixel.DensityPool
+getDensityData	/Users/benandlucy/Desktop/Quixel/Assets/script/Pooling.cs	/^        public static DensityData getDensityData()$/;"	m	class:Quixell.DensityPool
+getDensityData	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/Pooling.cs	/^        public static DensityData getDensityData()$/;"	m	class:Quixx.DensityPool
+getDirectory	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Nodes.cs	/^        private string getDirectory()$/;"	m	class:Quixel.Node	file:
+getDirectory	/Users/benandlucy/Desktop/Quixel/Assets/script/Nodes.cs	/^        private string getDirectory()$/;"	m	class:Quixell.Node	file:
+getDirectory	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/node.cs	/^        private string getDirectory()$/;"	m	class:Quixx.Node	file:
+getFinishedDensity	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Threading.cs	/^        public DensityData getFinishedDensity()$/;"	m	class:Quixel.DensityThread
+getFinishedDensity	/Users/benandlucy/Desktop/Quixel/Assets/script/Threading.cs	/^        public DensityData getFinishedDensity()$/;"	m	class:Quixell.DensityThread
+getFinishedDensity	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/Threading.cs	/^        public DensityData getFinishedDensity()$/;"	m	class:Quixx.DensityThread
+getFinishedLoadRequest	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Threading.cs	/^        public Node getFinishedLoadRequest()$/;"	m	class:Quixel.FileThread
+getFinishedLoadRequest	/Users/benandlucy/Desktop/Quixel/Assets/script/Threading.cs	/^        public Node getFinishedLoadRequest()$/;"	m	class:Quixell.FileThread
+getFinishedLoadRequest	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/Threading.cs	/^        public Node getFinishedLoadRequest()$/;"	m	class:Quixx.FileThread
+getFinishedMesh	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Threading.cs	/^        public MeshFactory.MeshRequest getFinishedMesh()$/;"	m	class:Quixel.GeneratorThread
+getFinishedMesh	/Users/benandlucy/Desktop/Quixel/Assets/script/Threading.cs	/^        public MeshFactory.MeshRequest getFinishedMesh()$/;"	m	class:Quixell.GeneratorThread
+getFinishedMesh	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/Threading.cs	/^        public MeshFactory.MeshRequest getFinishedMesh()$/;"	m	class:Quixx.GeneratorThread
+getMaterial	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Utilities.cs	/^        public byte getMaterial(int x, int y, int z)$/;"	m	class:Quixel.DensityData
+getMaterial	/Users/benandlucy/Desktop/Quixel/Assets/script/Utilities.cs	/^        public byte getMaterial(int x, int y, int z)$/;"	m	class:Quixell.DensityData
+getMaterial	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/Utilities.cs	/^        public byte getMaterial(int x, int y, int z)$/;"	m	class:Quixx.DensityData
+getNextRequest	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/MeshFactory.cs	/^        public static MeshRequest getNextRequest()$/;"	m	class:Quixel.MeshFactory
+getNextRequest	/Users/benandlucy/Desktop/Quixel/Assets/script/MeshFactory.cs	/^        public static MeshRequest getNextRequest()$/;"	m	class:Quixell.MeshFactory
+getNextRequest	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/MeshFactory.cs	/^        public static MeshRequest getNextRequest()$/;"	m	class:Quixx.MeshFactory
+getNextRequests	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/MeshFactory.cs	/^        public static MeshRequest[] getNextRequests()$/;"	m	class:Quixel.MeshFactory
+getNextRequests	/Users/benandlucy/Desktop/Quixel/Assets/script/MeshFactory.cs	/^        public static MeshRequest[] getNextRequests()$/;"	m	class:Quixell.MeshFactory
+getNextRequests	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/MeshFactory.cs	/^        public static MeshRequest[] getNextRequests()$/;"	m	class:Quixx.MeshFactory
+getOffsetPosition	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Nodes.cs	/^        public static Vector3 getOffsetPosition(Node parentNode, int subNodeID)$/;"	m	class:Quixel.NodeManager
+getOffsetPosition	/Users/benandlucy/Desktop/Quixel/Assets/script/Nodes.cs	/^        public static Vector3 getOffsetPosition(Node parentNode, int subNodeID)$/;"	m	class:Quixell.NodeManager
+getOffsetPosition	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/node.cs	/^        public static Vector3 getOffsetPosition(Node parentNode, int subNodeID)$/;"	m	class:Quixx.NodeManager
+getPoints	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/NodeEditor.cs	/^        private static List<Vector3> getPoints(BrushType type, int size, Vector3 pos)$/;"	m	class:Quixel.NodeEditor	file:
+getPoints	/Users/benandlucy/Desktop/Quixel/Assets/script/NodeEditor.cs	/^        private static List<Vector3> getPoints(BrushType type, int size, Vector3 pos)$/;"	m	class:Quixell.NodeEditor	file:
+getRequestCount	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/MeshFactory.cs	/^        public static int getRequestCount()$/;"	m	class:Quixel.MeshFactory
+getRequestCount	/Users/benandlucy/Desktop/Quixel/Assets/script/MeshFactory.cs	/^        public static int getRequestCount()$/;"	m	class:Quixell.MeshFactory
+getRequestCount	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/MeshFactory.cs	/^        public static int getRequestCount()$/;"	m	class:Quixx.MeshFactory
+getTopNode	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Nodes.cs	/^        public static Vector3I getTopNode(Vector3 pos)$/;"	m	class:Quixel.NodeManager
+getTopNode	/Users/benandlucy/Desktop/Quixel/Assets/script/Nodes.cs	/^        public static Vector3I getTopNode(Vector3 pos)$/;"	m	class:Quixell.NodeManager
+getTopNode	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/node.cs	/^        public static Vector3I getTopNode(Vector3 pos)$/;"	m	class:Quixx.NodeManager
+gravity	/Users/benandlucy/Desktop/Quixel/Assets/Standard Assets/Character Controllers/Sources/Scripts/CharacterMotor.js	/^	var gravity : float = 10.0;$/;"	v
+gravity	/Users/benandlucy/Desktop/Quixel/Assets/Standard Assets/Character Controllers/Sources/Scripts/ThirdPersonController.js	/^var gravity = 20.0;$/;"	v
+hasDensities	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/MeshFactory.cs	/^            public bool hasDensities;$/;"	f	class:Quixel.MeshFactory.MeshRequest
+hasDensities	/Users/benandlucy/Desktop/Quixel/Assets/script/MeshFactory.cs	/^            public bool hasDensities;$/;"	f	class:Quixell.MeshFactory.MeshRequest
+hasDensities	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/MeshFactory.cs	/^            public bool hasDensities;$/;"	f	class:Quixx.MeshFactory.MeshRequest
+hasDensityChangeData	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Nodes.cs	/^        public bool hasDensityChangeData = false;$/;"	f	class:Quixel.Node
+hasDensityChangeData	/Users/benandlucy/Desktop/Quixel/Assets/script/Nodes.cs	/^        public bool hasDensityChangeData = false;$/;"	f	class:Quixell.Node
+hasDensityChangeData	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/node.cs	/^        public bool hasDensityChangeData = false;$/;"	f	class:Quixx.Node
+hasMesh	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Nodes.cs	/^        public bool hasMesh = false;$/;"	f	class:Quixel.Node
+hasMesh	/Users/benandlucy/Desktop/Quixel/Assets/script/Nodes.cs	/^        public bool hasMesh = false;$/;"	f	class:Quixell.Node
+hasMesh	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/node.cs	/^        public bool hasMesh = false;$/;"	f	class:Quixx.Node
+height	/Users/benandlucy/Desktop/Quixel/Assets/Standard Assets/Character Controllers/Sources/Scripts/ThirdPersonCamera.js	/^var height = 3.0;$/;"	v
+heightSmoothLag	/Users/benandlucy/Desktop/Quixel/Assets/Standard Assets/Character Controllers/Sources/Scripts/ThirdPersonCamera.js	/^var heightSmoothLag = 0.3;$/;"	v
+inAirControlAcceleration	/Users/benandlucy/Desktop/Quixel/Assets/Standard Assets/Character Controllers/Sources/Scripts/ThirdPersonController.js	/^var inAirControlAcceleration = 3.0;$/;"	v
+indexArray	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Utilities.cs	/^        public int[][] indexArray;$/;"	f	class:Quixel.MeshData
+indexArray	/Users/benandlucy/Desktop/Quixel/Assets/script/Utilities.cs	/^        public int[][] indexArray;$/;"	f	class:Quixell.MeshData
+indexArray	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/Utilities.cs	/^        public int[][] indexArray;$/;"	f	class:Quixx.MeshData
+init	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Nodes.cs	/^        public static void init(string worldName)$/;"	m	class:Quixel.NodeManager
+init	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Pooling.cs	/^        public static void init()$/;"	m	class:Quixel.DensityPool
+init	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/QuixelEngine.cs	/^        public static void init(Material[] mats, GameObject terrainObj, string worldName)$/;"	m	class:Quixel.QuixelEngine
+init	/Users/benandlucy/Desktop/Quixel/Assets/script/Nodes.cs	/^        public static void init(string worldName)$/;"	m	class:Quixell.NodeManager
+init	/Users/benandlucy/Desktop/Quixel/Assets/script/Pooling.cs	/^        public static void init()$/;"	m	class:Quixell.DensityPool
+init	/Users/benandlucy/Desktop/Quixel/Assets/script/QuixelEngine.cs	/^        public static void init(Material[] mats, GameObject terrainObj, string worldName)$/;"	m	class:Quixell.QuixelEngine
+init	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/Pooling.cs	/^        public static void init()$/;"	m	class:Quixx.DensityPool
+init	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/QuixelEngine.cs	/^    public static void init(Material[] mats, GameObject terrainObj, string worldName)$/;"	m	class:Quixx.QuixelEngine
+init	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/node.cs	/^        public static void init(string worldName)$/;"	m	class:Quixx.NodeManager
+isActive	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/QuixelEngine.cs	/^        public static bool isActive()$/;"	m	class:Quixel.QuixelEngine
+isActive	/Users/benandlucy/Desktop/Quixel/Assets/script/QuixelEngine.cs	/^        public static bool isActive()$/;"	m	class:Quixell.QuixelEngine
+isActive	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/QuixelEngine.cs	/^    public static bool isActive()$/;"	m	class:Quixx.QuixelEngine
+isBottomLevel	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Nodes.cs	/^        public bool isBottomLevel()$/;"	m	class:Quixel.Node
+isBottomLevel	/Users/benandlucy/Desktop/Quixel/Assets/script/Nodes.cs	/^        public bool isBottomLevel()$/;"	m	class:Quixell.Node
+isBottomLevel	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/node.cs	/^        public bool isBottomLevel()$/;"	m	class:Quixx.Node
+isDone	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/MeshFactory.cs	/^            public bool isDone;$/;"	f	class:Quixel.MeshFactory.MeshRequest
+isDone	/Users/benandlucy/Desktop/Quixel/Assets/script/MeshFactory.cs	/^            public bool isDone;$/;"	f	class:Quixell.MeshFactory.MeshRequest
+isDone	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/MeshFactory.cs	/^            public bool isDone;$/;"	f	class:Quixx.MeshFactory.MeshRequest
+isTransitional	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Nodes.cs	/^        public bool isTransitional()$/;"	m	class:Quixel.Node
+isTransitional	/Users/benandlucy/Desktop/Quixel/Assets/script/Nodes.cs	/^        public bool isTransitional()$/;"	m	class:Quixell.Node
+isTransitional	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/node.cs	/^        public bool isTransitional()$/;"	m	class:Quixx.Node
+isolevel	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/MeshFactory.cs	/^        public static float isolevel = 5f;$/;"	f	class:Quixel.MeshFactory
+isolevel	/Users/benandlucy/Desktop/Quixel/Assets/script/MeshFactory.cs	/^        public static float isolevel = 5f;$/;"	f	class:Quixell.MeshFactory
+isolevel	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/MeshFactory.cs	/^        public static float isolevel = 5f;$/;"	f	class:Quixx.MeshFactory
+jumpHeight	/Users/benandlucy/Desktop/Quixel/Assets/Standard Assets/Character Controllers/Sources/Scripts/ThirdPersonController.js	/^var jumpHeight = 0.5;$/;"	v
+jumping	/Users/benandlucy/Desktop/Quixel/Assets/Standard Assets/Character Controllers/Sources/Scripts/CharacterMotor.js	/^var jumping : CharacterMotorJumping = CharacterMotorJumping();$/;"	v
+lastPosition	/Users/benandlucy/Desktop/Quixel/Assets/Standard Assets/Character Controllers/Sources/Scripts/CharacterMotor.js	/^	var lastPosition : Vector3 = tr.position;$/;"	v
+loadChanges	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Nodes.cs	/^        public bool loadChanges()$/;"	m	class:Quixel.Node
+loadChanges	/Users/benandlucy/Desktop/Quixel/Assets/script/Nodes.cs	/^        public bool loadChanges()$/;"	m	class:Quixell.Node
+loadChanges	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/node.cs	/^        public bool loadChanges()$/;"	m	class:Quixx.Node
+loadQueue	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Threading.cs	/^        private Queue<Node> loadQueue;$/;"	f	class:Quixel.FileThread	file:
+loadQueue	/Users/benandlucy/Desktop/Quixel/Assets/script/Threading.cs	/^        private Queue<Node> loadQueue;$/;"	f	class:Quixell.FileThread	file:
+loadQueue	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/Threading.cs	/^        private Queue<Node> loadQueue;$/;"	f	class:Quixx.FileThread	file:
+lockCameraTimeout	/Users/benandlucy/Desktop/Quixel/Assets/Standard Assets/Character Controllers/Sources/Scripts/ThirdPersonCamera.js	/^var lockCameraTimeout = 0.2;$/;"	v
+mask	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Nodes.cs	/^        public static Vector3[] mask = new Vector3[8] {$/;"	f	class:Quixel.NodeManager
+mask	/Users/benandlucy/Desktop/Quixel/Assets/script/Nodes.cs	/^        public static Vector3[] mask = new Vector3[8] {$/;"	f	class:Quixell.NodeManager
+mask	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/node.cs	/^        public static Vector3[] mask = new Vector3[8] {$/;"	f	class:Quixx.NodeManager
+material	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/ITerrainGenerator.cs	/^        public byte material;$/;"	f	struct:Quixel.VoxelData
+material	/Users/benandlucy/Desktop/Quixel/Assets/script/ITerrainGenerator.cs	/^        public byte material;$/;"	f	struct:Quixell.VoxelData
+material	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/ITerrainGenerator.cs	/^      public byte material;$/;"	f	struct:Quixx.VoxelData
+materialArray	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/TerrainController.cs	/^	public Material[] materialArray;$/;"	f	class:TerrainController
+materialID	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/NodeEditor.cs	/^        private static byte materialID = 0;$/;"	f	class:Quixel.NodeEditor	file:
+materialID	/Users/benandlucy/Desktop/Quixel/Assets/script/NodeEditor.cs	/^        private static byte materialID = 0;$/;"	f	class:Quixell.NodeEditor	file:
+materials	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/QuixelEngine.cs	/^        public static Material[] materials;$/;"	f	class:Quixel.QuixelEngine
+materials	/Users/benandlucy/Desktop/Quixel/Assets/script/QuixelEngine.cs	/^        public static Material[] materials;$/;"	f	class:Quixell.QuixelEngine
+materials	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/QuixelEngine.cs	/^    public static Material[] materials;$/;"	f	class:Quixx.QuixelEngine
+maxAirAcceleration	/Users/benandlucy/Desktop/Quixel/Assets/Standard Assets/Character Controllers/Sources/Scripts/CharacterMotor.js	/^	var maxAirAcceleration : float = 20.0;$/;"	v
+maxBackwardsSpeed	/Users/benandlucy/Desktop/Quixel/Assets/Standard Assets/Character Controllers/Sources/Scripts/CharacterMotor.js	/^	var maxBackwardsSpeed : float = 10.0;$/;"	v
+maxFallSpeed	/Users/benandlucy/Desktop/Quixel/Assets/Standard Assets/Character Controllers/Sources/Scripts/CharacterMotor.js	/^	var maxFallSpeed : float = 20.0;$/;"	v
+maxGroundAcceleration	/Users/benandlucy/Desktop/Quixel/Assets/Standard Assets/Character Controllers/Sources/Scripts/CharacterMotor.js	/^	var maxGroundAcceleration : float = 30.0;$/;"	v
+maxLOD	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Nodes.cs	/^        public static int maxLOD = 10;$/;"	f	class:Quixel.NodeManager
+maxLOD	/Users/benandlucy/Desktop/Quixel/Assets/script/Nodes.cs	/^        public static int maxLOD = 10;$/;"	f	class:Quixell.NodeManager
+maxLOD	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/node.cs	/^        public static int maxLOD = 10;$/;"	f	class:Quixx.NodeManager
+maxRotationSpeed	/Users/benandlucy/Desktop/Quixel/Assets/Standard Assets/Character Controllers/Sources/Scripts/PlatformInputController.js	/^var maxRotationSpeed : float = 360;$/;"	v
+maxSidewaysSpeed	/Users/benandlucy/Desktop/Quixel/Assets/Standard Assets/Character Controllers/Sources/Scripts/CharacterMotor.js	/^	var maxSidewaysSpeed : float = 10.0;$/;"	v
+maxSpeed	/Users/benandlucy/Desktop/Quixel/Assets/Standard Assets/Character Controllers/Sources/Scripts/CharacterMotor.js	/^	var maxSpeed : float = MaxSpeedInDirection(desiredLocalDirection);$/;"	v
+maximumX	/Users/benandlucy/Desktop/Quixel/Assets/Standard Assets/Character Controllers/Sources/Scripts/MouseLook.cs	/^	public float maximumX = 360F;$/;"	f	class:MouseLook
+maximumY	/Users/benandlucy/Desktop/Quixel/Assets/Standard Assets/Character Controllers/Sources/Scripts/MouseLook.cs	/^	public float maximumY = 60F;$/;"	f	class:MouseLook
+meshData	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/MeshFactory.cs	/^            public MeshData meshData;$/;"	f	class:Quixel.MeshFactory.MeshRequest
+meshData	/Users/benandlucy/Desktop/Quixel/Assets/script/MeshFactory.cs	/^            public MeshData meshData;$/;"	f	class:Quixell.MeshFactory.MeshRequest
+meshData	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/MeshFactory.cs	/^            public MeshData meshData;$/;"	f	class:Quixx.MeshFactory.MeshRequest
+minimumX	/Users/benandlucy/Desktop/Quixel/Assets/Standard Assets/Character Controllers/Sources/Scripts/MouseLook.cs	/^	public float minimumX = -360F;$/;"	f	class:MouseLook
+minimumY	/Users/benandlucy/Desktop/Quixel/Assets/Standard Assets/Character Controllers/Sources/Scripts/MouseLook.cs	/^	public float minimumY = -60F;$/;"	f	class:MouseLook
+moveDistance	/Users/benandlucy/Desktop/Quixel/Assets/Standard Assets/Character Controllers/Sources/Scripts/CharacterMotor.js	/^	var moveDistance : Vector3 = Vector3.zero;$/;"	v
+movement	/Users/benandlucy/Desktop/Quixel/Assets/Standard Assets/Character Controllers/Sources/Scripts/CharacterMotor.js	/^var movement : CharacterMotorMovement = CharacterMotorMovement();$/;"	v
+movementTransfer	/Users/benandlucy/Desktop/Quixel/Assets/Standard Assets/Character Controllers/Sources/Scripts/CharacterMotor.js	/^	var movementTransfer : MovementTransferOnJump = MovementTransferOnJump.PermaTransfer;$/;"	v
+movingPlatform	/Users/benandlucy/Desktop/Quixel/Assets/Standard Assets/Character Controllers/Sources/Scripts/CharacterMotor.js	/^var movingPlatform : CharacterMotorMovingPlatform = CharacterMotorMovingPlatform();$/;"	v
+nOne	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Utilities.cs	/^        public Vector3 nOne, nTwo, nThree;$/;"	f	struct:Quixel.Triangle
+nOne	/Users/benandlucy/Desktop/Quixel/Assets/script/Utilities.cs	/^        public Vector3 nOne, nTwo, nThree;$/;"	f	struct:Quixell.Triangle
+nOne	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/Utilities.cs	/^        public Vector3 nOne, nTwo, nThree;$/;"	f	struct:Quixx.Triangle
+nThree	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Utilities.cs	/^        public Vector3 nOne, nTwo, nThree;$/;"	f	struct:Quixel.Triangle
+nThree	/Users/benandlucy/Desktop/Quixel/Assets/script/Utilities.cs	/^        public Vector3 nOne, nTwo, nThree;$/;"	f	struct:Quixell.Triangle
+nThree	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/Utilities.cs	/^        public Vector3 nOne, nTwo, nThree;$/;"	f	struct:Quixx.Triangle
+nTwo	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Utilities.cs	/^        public Vector3 nOne, nTwo, nThree;$/;"	f	struct:Quixel.Triangle
+nTwo	/Users/benandlucy/Desktop/Quixel/Assets/script/Utilities.cs	/^        public Vector3 nOne, nTwo, nThree;$/;"	f	struct:Quixell.Triangle
+nTwo	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/Utilities.cs	/^        public Vector3 nOne, nTwo, nThree;$/;"	f	struct:Quixx.Triangle
+neighborMask	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Nodes.cs	/^        public static Vector3[] neighborMask = new Vector3[6] {$/;"	f	class:Quixel.Node
+neighborMask	/Users/benandlucy/Desktop/Quixel/Assets/script/Nodes.cs	/^        public static Vector3[] neighborMask = new Vector3[6] {$/;"	f	class:Quixell.Node
+neighborMask	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/node.cs	/^        public static Vector3[] neighborMask = new Vector3[6] {$/;"	f	class:Quixx.Node
+neighborNodes	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Nodes.cs	/^        public Node[] neighborNodes = new Node[6];$/;"	f	class:Quixel.Node
+neighborNodes	/Users/benandlucy/Desktop/Quixel/Assets/script/Nodes.cs	/^        public Node[] neighborNodes = new Node[6];$/;"	f	class:Quixell.Node
+neighborNodes	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/node.cs	/^        public Node[] neighborNodes = new Node[6];$/;"	f	class:Quixx.Node
+node	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/MeshFactory.cs	/^            public Node node;$/;"	f	class:Quixel.MeshFactory.MeshRequest
+node	/Users/benandlucy/Desktop/Quixel/Assets/script/MeshFactory.cs	/^            public Node node;$/;"	f	class:Quixell.MeshFactory.MeshRequest
+node	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/MeshFactory.cs	/^            public Node node;$/;"	f	class:Quixx.MeshFactory.MeshRequest
+nodeCount	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Nodes.cs	/^        public static int[] nodeCount = new int[11];$/;"	f	class:Quixel.NodeManager
+nodeCount	/Users/benandlucy/Desktop/Quixel/Assets/script/Nodes.cs	/^        public static int[] nodeCount = new int[11];$/;"	f	class:Quixell.NodeManager
+nodeCount	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/node.cs	/^        public static int[] nodeCount = new int[11];$/;"	f	class:Quixx.NodeManager
+nodeSize	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Nodes.cs	/^        public static int nodeSize = 16;$/;"	f	class:Quixel.NodeManager
+nodeSize	/Users/benandlucy/Desktop/Quixel/Assets/script/Nodes.cs	/^        public static int nodeSize = 16;$/;"	f	class:Quixell.NodeManager
+nodeSize	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/node.cs	/^        public static int nodeSize = 16;$/;"	f	class:Quixx.NodeManager
+nodesLoaded	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/MeshFactory.cs	/^        public static int nodesLoaded = 0;$/;"	f	class:Quixel.MeshFactory
+nodesLoaded	/Users/benandlucy/Desktop/Quixel/Assets/script/MeshFactory.cs	/^        public static int nodesLoaded = 0;$/;"	f	class:Quixell.MeshFactory
+nodesLoaded	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/MeshFactory.cs	/^        public static int nodesLoaded = 0;$/;"	f	class:Quixx.MeshFactory
+nodesSaved	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/MeshFactory.cs	/^        public static int nodesSaved = 0;$/;"	f	class:Quixel.MeshFactory
+nodesSaved	/Users/benandlucy/Desktop/Quixel/Assets/script/MeshFactory.cs	/^        public static int nodesSaved = 0;$/;"	f	class:Quixell.MeshFactory
+nodesSaved	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/MeshFactory.cs	/^        public static int nodesSaved = 0;$/;"	f	class:Quixx.MeshFactory
+normalArray	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Utilities.cs	/^        public Vector3[] normalArray;$/;"	f	class:Quixel.MeshData
+normalArray	/Users/benandlucy/Desktop/Quixel/Assets/script/Utilities.cs	/^        public Vector3[] normalArray;$/;"	f	class:Quixell.MeshData
+normalArray	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/Utilities.cs	/^        public Vector3[] normalArray;$/;"	f	class:Quixx.MeshData
+oppositeNeighbor	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Nodes.cs	/^        public static int[] oppositeNeighbor = new int[6] {$/;"	f	class:Quixel.Node
+oppositeNeighbor	/Users/benandlucy/Desktop/Quixel/Assets/script/Nodes.cs	/^        public static int[] oppositeNeighbor = new int[6] {$/;"	f	class:Quixell.Node
+oppositeNeighbor	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/node.cs	/^        public static int[] oppositeNeighbor = new int[6] {$/;"	f	class:Quixx.Node
+parent	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Nodes.cs	/^        public Node parent;$/;"	f	class:Quixel.Node
+parent	/Users/benandlucy/Desktop/Quixel/Assets/script/Nodes.cs	/^        public Node parent;$/;"	f	class:Quixell.Node
+parent	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/node.cs	/^        public Node parent;$/;"	f	class:Quixx.Node
+permanent	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Nodes.cs	/^        public bool permanent = false;$/;"	f	class:Quixel.Node
+permanent	/Users/benandlucy/Desktop/Quixel/Assets/script/Nodes.cs	/^        public bool permanent = false;$/;"	f	class:Quixell.Node
+permanent	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/node.cs	/^        public bool permanent = false;$/;"	f	class:Quixx.Node
+perpAmount	/Users/benandlucy/Desktop/Quixel/Assets/Standard Assets/Character Controllers/Sources/Scripts/CharacterMotor.js	/^	var perpAmount : float = 0.0;$/;"	v
+player	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/TerrainController.cs	/^	public GameObject player;$/;"	f	class:TerrainController
+pointOne	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Utilities.cs	/^        public Vector3 pointOne, pointTwo, pointThree;$/;"	f	struct:Quixel.Triangle
+pointOne	/Users/benandlucy/Desktop/Quixel/Assets/script/Utilities.cs	/^        public Vector3 pointOne, pointTwo, pointThree;$/;"	f	struct:Quixell.Triangle
+pointOne	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/Utilities.cs	/^        public Vector3 pointOne, pointTwo, pointThree;$/;"	f	struct:Quixx.Triangle
+pointThree	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Utilities.cs	/^        public Vector3 pointOne, pointTwo, pointThree;$/;"	f	struct:Quixel.Triangle
+pointThree	/Users/benandlucy/Desktop/Quixel/Assets/script/Utilities.cs	/^        public Vector3 pointOne, pointTwo, pointThree;$/;"	f	struct:Quixell.Triangle
+pointThree	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/Utilities.cs	/^        public Vector3 pointOne, pointTwo, pointThree;$/;"	f	struct:Quixx.Triangle
+pointTwo	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Utilities.cs	/^        public Vector3 pointOne, pointTwo, pointThree;$/;"	f	struct:Quixel.Triangle
+pointTwo	/Users/benandlucy/Desktop/Quixel/Assets/script/Utilities.cs	/^        public Vector3 pointOne, pointTwo, pointThree;$/;"	f	struct:Quixell.Triangle
+pointTwo	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/Utilities.cs	/^        public Vector3 pointOne, pointTwo, pointThree;$/;"	f	struct:Quixx.Triangle
+pos	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/MeshFactory.cs	/^            public Vector3 pos;$/;"	f	class:Quixel.MeshFactory.MeshRequest
+pos	/Users/benandlucy/Desktop/Quixel/Assets/script/MeshFactory.cs	/^            public Vector3 pos;$/;"	f	class:Quixell.MeshFactory.MeshRequest
+pos	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/MeshFactory.cs	/^            public Vector3 pos;$/;"	f	class:Quixx.MeshFactory.MeshRequest
+position	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Nodes.cs	/^        public Vector3 position;$/;"	f	class:Quixel.Node
+position	/Users/benandlucy/Desktop/Quixel/Assets/script/Nodes.cs	/^        public Vector3 position;$/;"	f	class:Quixell.Node
+position	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/node.cs	/^        public Vector3 position;$/;"	f	class:Quixx.Node
+pushDownOffset	/Users/benandlucy/Desktop/Quixel/Assets/Standard Assets/Character Controllers/Sources/Scripts/CharacterMotor.js	/^	var pushDownOffset : float = Mathf.Max(controller.stepOffset, Vector3(currentMovementOffset.x, 0, currentMovementOffset.z).magnitude);$/;"	v
+queueGenerateMesh	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Threading.cs	/^        public void queueGenerateMesh(MeshFactory.MeshRequest req)$/;"	m	class:Quixel.GeneratorThread
+queueGenerateMesh	/Users/benandlucy/Desktop/Quixel/Assets/script/Threading.cs	/^        public void queueGenerateMesh(MeshFactory.MeshRequest req)$/;"	m	class:Quixell.GeneratorThread
+queueGenerateMesh	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/Threading.cs	/^        public void queueGenerateMesh(MeshFactory.MeshRequest req)$/;"	m	class:Quixx.GeneratorThread
+queueRecycleDensity	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Threading.cs	/^        public void queueRecycleDensity(DensityData req)$/;"	m	class:Quixel.DensityThread
+queueRecycleDensity	/Users/benandlucy/Desktop/Quixel/Assets/script/Threading.cs	/^        public void queueRecycleDensity(DensityData req)$/;"	m	class:Quixell.DensityThread
+queueRecycleDensity	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/Threading.cs	/^        public void queueRecycleDensity(DensityData req)$/;"	m	class:Quixx.DensityThread
+recycleChunk	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Pooling.cs	/^        public static void recycleChunk(GameObject chunk)$/;"	m	class:Quixel.ChunkPool
+recycleChunk	/Users/benandlucy/Desktop/Quixel/Assets/script/Pooling.cs	/^        public static void recycleChunk(GameObject chunk)$/;"	m	class:Quixell.ChunkPool
+recycleChunk	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/Pooling.cs	/^        public static void recycleChunk(GameObject chunk)$/;"	m	class:Quixx.ChunkPool
+recycleDensityData	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Pooling.cs	/^        public static void recycleDensityData(DensityData arr)$/;"	m	class:Quixel.DensityPool
+recycleDensityData	/Users/benandlucy/Desktop/Quixel/Assets/script/Pooling.cs	/^        public static void recycleDensityData(DensityData arr)$/;"	m	class:Quixell.DensityPool
+recycleDensityData	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/Pooling.cs	/^        public static void recycleDensityData(DensityData arr)$/;"	m	class:Quixx.DensityPool
+recycleLoop	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Threading.cs	/^        private void recycleLoop()$/;"	m	class:Quixel.DensityThread	file:
+recycleLoop	/Users/benandlucy/Desktop/Quixel/Assets/script/Threading.cs	/^        private void recycleLoop()$/;"	m	class:Quixell.DensityThread	file:
+recycleLoop	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/Threading.cs	/^        private void recycleLoop()$/;"	m	class:Quixx.DensityThread	file:
+regenFlag	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Nodes.cs	/^        public bool regenFlag = false;$/;"	f	class:Quixel.Node
+regenFlag	/Users/benandlucy/Desktop/Quixel/Assets/script/Nodes.cs	/^        public bool regenFlag = false;$/;"	f	class:Quixell.Node
+regenFlag	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/node.cs	/^        public bool regenFlag = false;$/;"	f	class:Quixx.Node
+regenReq	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Nodes.cs	/^        private bool regenReq = false;$/;"	f	class:Quixel.Node	file:
+regenReq	/Users/benandlucy/Desktop/Quixel/Assets/script/Nodes.cs	/^        private bool regenReq = false;$/;"	f	class:Quixell.Node	file:
+regenReq	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/node.cs	/^        private bool regenReq = false;$/;"	f	class:Quixx.Node	file:
+regenerateChunk	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Nodes.cs	/^        public void regenerateChunk()$/;"	m	class:Quixel.Node
+regenerateChunk	/Users/benandlucy/Desktop/Quixel/Assets/script/Nodes.cs	/^        public void regenerateChunk()$/;"	m	class:Quixell.Node
+regenerateChunk	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/node.cs	/^        public void regenerateChunk()$/;"	m	class:Quixx.Node
+renderCheck	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Nodes.cs	/^        public void renderCheck()$/;"	m	class:Quixel.Node
+renderCheck	/Users/benandlucy/Desktop/Quixel/Assets/script/Nodes.cs	/^        public void renderCheck()$/;"	m	class:Quixell.Node
+renderCheck	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/node.cs	/^        public void renderCheck()$/;"	m	class:Quixx.Node
+renderType	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Nodes.cs	/^        public RenderType renderType;$/;"	f	class:Quixel.Node
+renderType	/Users/benandlucy/Desktop/Quixel/Assets/script/Nodes.cs	/^        public RenderType renderType;$/;"	f	class:Quixell.Node
+renderType	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/node.cs	/^        public RenderType renderType;$/;"	f	class:Quixx.Node
+requestArray	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/MeshFactory.cs	/^        public static Queue<MeshRequest>[] requestArray = new Queue<MeshRequest>[NodeManager.maxLOD + 2];$/;"	f	class:Quixel.MeshFactory
+requestArray	/Users/benandlucy/Desktop/Quixel/Assets/script/MeshFactory.cs	/^        public static Queue<MeshRequest>[] requestArray = new Queue<MeshRequest>[NodeManager.maxLOD + 2];$/;"	f	class:Quixell.MeshFactory
+requestArray	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/MeshFactory.cs	/^        public static Queue<MeshRequest>[] requestArray = new Queue<MeshRequest>[NodeManager.maxLOD + 2];$/;"	f	class:Quixx.MeshFactory
+requestLoad	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/MeshFactory.cs	/^        public static void requestLoad(Node node)$/;"	m	class:Quixel.MeshFactory
+requestLoad	/Users/benandlucy/Desktop/Quixel/Assets/script/MeshFactory.cs	/^        public static void requestLoad(Node node)$/;"	m	class:Quixell.MeshFactory
+requestLoad	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/MeshFactory.cs	/^        public static void requestLoad(Node node)$/;"	m	class:Quixx.MeshFactory
+requestMesh	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/MeshFactory.cs	/^        public static void requestMesh(Node _node)$/;"	m	class:Quixel.MeshFactory
+requestMesh	/Users/benandlucy/Desktop/Quixel/Assets/script/MeshFactory.cs	/^        public static void requestMesh(Node _node)$/;"	m	class:Quixell.MeshFactory
+requestMesh	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/MeshFactory.cs	/^        public static void requestMesh(Node _node)$/;"	m	class:Quixx.MeshFactory
+requestNum	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/MeshFactory.cs	/^        public static int requestNum = 0;$/;"	f	class:Quixel.MeshFactory
+requestNum	/Users/benandlucy/Desktop/Quixel/Assets/script/MeshFactory.cs	/^        public static int requestNum = 0;$/;"	f	class:Quixell.MeshFactory
+requestNum	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/MeshFactory.cs	/^        public static int requestNum = 0;$/;"	f	class:Quixx.MeshFactory
+requestSave	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/MeshFactory.cs	/^        public static void requestSave(Node node)$/;"	m	class:Quixel.MeshFactory
+requestSave	/Users/benandlucy/Desktop/Quixel/Assets/script/MeshFactory.cs	/^        public static void requestSave(Node node)$/;"	m	class:Quixell.MeshFactory
+requestSave	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/MeshFactory.cs	/^        public static void requestSave(Node node)$/;"	m	class:Quixx.MeshFactory
+rotateSpeed	/Users/benandlucy/Desktop/Quixel/Assets/Standard Assets/Character Controllers/Sources/Scripts/ThirdPersonController.js	/^var rotateSpeed = 500.0;$/;"	v
+rotationY	/Users/benandlucy/Desktop/Quixel/Assets/Standard Assets/Character Controllers/Sources/Scripts/MouseLook.cs	/^	float rotationY = 0F;$/;"	f	class:MouseLook	file:
+runSpeed	/Users/benandlucy/Desktop/Quixel/Assets/Standard Assets/Character Controllers/Sources/Scripts/ThirdPersonController.js	/^var runSpeed = 6.0;$/;"	v
+saveChanges	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Nodes.cs	/^        public void saveChanges()$/;"	m	class:Quixel.Node
+saveChanges	/Users/benandlucy/Desktop/Quixel/Assets/script/Nodes.cs	/^        public void saveChanges()$/;"	m	class:Quixell.Node
+saveChanges	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/node.cs	/^        public void saveChanges()$/;"	m	class:Quixx.Node
+saveQueue	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Threading.cs	/^        private Queue<Node> saveQueue;$/;"	f	class:Quixel.FileThread	file:
+saveQueue	/Users/benandlucy/Desktop/Quixel/Assets/script/Threading.cs	/^        private Queue<Node> saveQueue;$/;"	f	class:Quixell.FileThread	file:
+saveQueue	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/Threading.cs	/^        private Queue<Node> saveQueue;$/;"	f	class:Quixx.FileThread	file:
+searchNode	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Nodes.cs	/^        public Node searchNode(Vector3 pos, int searchLOD)$/;"	m	class:Quixel.Node
+searchNode	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Nodes.cs	/^        public static Node searchNode(Vector3 pos, int searchLOD)$/;"	m	class:Quixel.NodeManager
+searchNode	/Users/benandlucy/Desktop/Quixel/Assets/script/Nodes.cs	/^        public Node searchNode(Vector3 pos, int searchLOD)$/;"	m	class:Quixell.Node
+searchNode	/Users/benandlucy/Desktop/Quixel/Assets/script/Nodes.cs	/^        public static Node searchNode(Vector3 pos, int searchLOD)$/;"	m	class:Quixell.NodeManager
+searchNode	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/node.cs	/^        public Node searchNode(Vector3 pos, int searchLOD)$/;"	m	class:Quixx.Node
+searchNode	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/node.cs	/^        public static Node searchNode(Vector3 pos, int searchLOD)$/;"	m	class:Quixx.NodeManager
+searchNodeContainingDensity	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Nodes.cs	/^        public static Node[] searchNodeContainingDensity(Vector3 pos, int searchLOD)$/;"	m	class:Quixel.NodeManager
+searchNodeContainingDensity	/Users/benandlucy/Desktop/Quixel/Assets/script/Nodes.cs	/^        public static Node[] searchNodeContainingDensity(Vector3 pos, int searchLOD)$/;"	m	class:Quixell.NodeManager
+searchNodeContainingDensity	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/node.cs	/^        public static Node[] searchNodeContainingDensity(Vector3 pos, int searchLOD)$/;"	m	class:Quixx.NodeManager
+searchNodeCreate	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Nodes.cs	/^        public void searchNodeCreate(Vector3 pos, int searchLOD, ref Node[] list)$/;"	m	class:Quixel.Node
+searchNodeCreate	/Users/benandlucy/Desktop/Quixel/Assets/script/Nodes.cs	/^        public void searchNodeCreate(Vector3 pos, int searchLOD, ref Node[] list)$/;"	m	class:Quixell.Node
+searchNodeCreate	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/node.cs	/^        public void searchNodeCreate(Vector3 pos, int searchLOD, ref Node[] list)$/;"	m	class:Quixx.Node
+sensitivityX	/Users/benandlucy/Desktop/Quixel/Assets/Standard Assets/Character Controllers/Sources/Scripts/MouseLook.cs	/^	public float sensitivityX = 15F;$/;"	f	class:MouseLook
+sensitivityY	/Users/benandlucy/Desktop/Quixel/Assets/Standard Assets/Character Controllers/Sources/Scripts/MouseLook.cs	/^	public float sensitivityY = 15F;$/;"	f	class:MouseLook
+set	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Utilities.cs	/^        public void set(Vector3I pos, float val)$/;"	m	class:Quixel.DensityData
+set	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Utilities.cs	/^        public void set(int x, int y, int z, float val)$/;"	m	class:Quixel.DensityData
+set	/Users/benandlucy/Desktop/Quixel/Assets/script/Utilities.cs	/^        public void set(Vector3I pos, float val)$/;"	m	class:Quixell.DensityData
+set	/Users/benandlucy/Desktop/Quixel/Assets/script/Utilities.cs	/^        public void set(int x, int y, int z, float val)$/;"	m	class:Quixell.DensityData
+set	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/Utilities.cs	/^        public void set(Vector3I pos, float val)$/;"	m	class:Quixx.DensityData
+set	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/Utilities.cs	/^        public void set(int x, int y, int z, float val)$/;"	m	class:Quixx.DensityData
+setCameraObj	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/QuixelEngine.cs	/^        public static void setCameraObj(GameObject obj)$/;"	m	class:Quixel.QuixelEngine
+setCameraObj	/Users/benandlucy/Desktop/Quixel/Assets/script/QuixelEngine.cs	/^        public static void setCameraObj(GameObject obj)$/;"	m	class:Quixell.QuixelEngine
+setChangeData	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Utilities.cs	/^        public void setChangeData(DensityData data)$/;"	m	class:Quixel.DensityData
+setChangeData	/Users/benandlucy/Desktop/Quixel/Assets/script/Utilities.cs	/^        public void setChangeData(DensityData data)$/;"	m	class:Quixell.DensityData
+setChangeData	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/Utilities.cs	/^        public void setChangeData(DensityData data)$/;"	m	class:Quixx.DensityData
+setDensityFromWorldPos	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Nodes.cs	/^        public void setDensityFromWorldPos(Vector3 worldPos, float val)$/;"	m	class:Quixel.Node
+setDensityFromWorldPos	/Users/benandlucy/Desktop/Quixel/Assets/script/Nodes.cs	/^        public void setDensityFromWorldPos(Vector3 worldPos, float val)$/;"	m	class:Quixell.Node
+setDensityFromWorldPos	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/node.cs	/^        public void setDensityFromWorldPos(Vector3 worldPos, float val)$/;"	m	class:Quixx.Node
+setMaterial	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/NodeEditor.cs	/^        public static void setMaterial(byte matID)$/;"	m	class:Quixel.NodeEditor
+setMaterial	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Utilities.cs	/^        public void setMaterial(int x, int y, int z, byte val)$/;"	m	class:Quixel.DensityData
+setMaterial	/Users/benandlucy/Desktop/Quixel/Assets/script/NodeEditor.cs	/^        public static void setMaterial(byte matID)$/;"	m	class:Quixell.NodeEditor
+setMaterial	/Users/benandlucy/Desktop/Quixel/Assets/script/Utilities.cs	/^        public void setMaterial(int x, int y, int z, byte val)$/;"	m	class:Quixell.DensityData
+setMaterial	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/Utilities.cs	/^        public void setMaterial(int x, int y, int z, byte val)$/;"	m	class:Quixx.DensityData
+setMaterialFromWorldPos	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Nodes.cs	/^        public void setMaterialFromWorldPos(Vector3 worldPos, byte val)$/;"	m	class:Quixel.Node
+setMaterialFromWorldPos	/Users/benandlucy/Desktop/Quixel/Assets/script/Nodes.cs	/^        public void setMaterialFromWorldPos(Vector3 worldPos, byte val)$/;"	m	class:Quixell.Node
+setMaterialFromWorldPos	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/node.cs	/^        public void setMaterialFromWorldPos(Vector3 worldPos, byte val)$/;"	m	class:Quixx.Node
+setMesh	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Nodes.cs	/^        public void setMesh(MeshData meshData)$/;"	m	class:Quixel.Node
+setMesh	/Users/benandlucy/Desktop/Quixel/Assets/script/Nodes.cs	/^        public void setMesh(MeshData meshData)$/;"	m	class:Quixell.Node
+setMesh	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/node.cs	/^        public void setMesh(MeshData meshData)$/;"	m	class:Quixx.Node
+setMeshQueue	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/MeshFactory.cs	/^        public static Queue<MeshRequest> setMeshQueue = new Queue<MeshRequest>();$/;"	f	class:Quixel.MeshFactory
+setMeshQueue	/Users/benandlucy/Desktop/Quixel/Assets/script/MeshFactory.cs	/^        public static Queue<MeshRequest> setMeshQueue = new Queue<MeshRequest>();$/;"	f	class:Quixell.MeshFactory
+setMeshQueue	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/MeshFactory.cs	/^        public static Queue<MeshRequest> setMeshQueue = new Queue<MeshRequest>();$/;"	f	class:Quixx.MeshFactory
+setPermanence	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Nodes.cs	/^        private void setPermanence(bool perm)$/;"	m	class:Quixel.Node	file:
+setPermanence	/Users/benandlucy/Desktop/Quixel/Assets/script/Nodes.cs	/^        private void setPermanence(bool perm)$/;"	m	class:Quixell.Node	file:
+setPermanence	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/node.cs	/^        private void setPermanence(bool perm)$/;"	m	class:Quixx.Node	file:
+setRenderType	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Nodes.cs	/^        public void setRenderType(RenderType r)$/;"	m	class:Quixel.Node
+setRenderType	/Users/benandlucy/Desktop/Quixel/Assets/script/Nodes.cs	/^        public void setRenderType(RenderType r)$/;"	m	class:Quixell.Node
+setRenderType	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/node.cs	/^        public void setRenderType(RenderType r)$/;"	m	class:Quixx.Node
+setTerrainGenerator	/Users/benandlucy/Desktop/Quixel/Assets/script/QuixelEngine.cs	/^    		public static void setTerrainGenerator(IGenerator gen)$/;"	m	class:Quixell.QuixelEngine
+setTerrainGenerator	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/QuixelEngine.cs	/^    public static void setTerrainGenerator(IGenerator gen)$/;"	m	class:Quixx.QuixelEngine
+setViewPosition	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Nodes.cs	/^        public static void setViewPosition(Vector3 pos)$/;"	m	class:Quixel.NodeManager
+setViewPosition	/Users/benandlucy/Desktop/Quixel/Assets/script/Nodes.cs	/^        public static void setViewPosition(Vector3 pos)$/;"	m	class:Quixell.NodeManager
+setViewPosition	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/node.cs	/^        public static void setViewPosition(Vector3 pos)$/;"	m	class:Quixx.NodeManager
+setVoxelSize	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/QuixelEngine.cs	/^        public static void setVoxelSize(int size, int maxLOD)$/;"	m	class:Quixel.QuixelEngine
+setVoxelSize	/Users/benandlucy/Desktop/Quixel/Assets/script/QuixelEngine.cs	/^        public static void setVoxelSize(int size, int maxLOD)$/;"	m	class:Quixell.QuixelEngine
+setVoxelSize	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/QuixelEngine.cs	/^    public static void setVoxelSize(int size, int maxLOD)$/;"	m	class:Quixx.QuixelEngine
+sidewaysControl	/Users/benandlucy/Desktop/Quixel/Assets/Standard Assets/Character Controllers/Sources/Scripts/CharacterMotor.js	/^	var sidewaysControl : float = 1.0;$/;"	v
+sliding	/Users/benandlucy/Desktop/Quixel/Assets/Standard Assets/Character Controllers/Sources/Scripts/CharacterMotor.js	/^var sliding : CharacterMotorSliding = CharacterMotorSliding();$/;"	v
+slidingSpeed	/Users/benandlucy/Desktop/Quixel/Assets/Standard Assets/Character Controllers/Sources/Scripts/CharacterMotor.js	/^	var slidingSpeed : float = 15;$/;"	v
+slopeSpeedMultiplier	/Users/benandlucy/Desktop/Quixel/Assets/Standard Assets/Character Controllers/Sources/Scripts/CharacterMotor.js	/^	var slopeSpeedMultiplier : AnimationCurve = AnimationCurve(Keyframe(-90, 1), Keyframe(0, 1), Keyframe(90, 0));$/;"	v
+snapMaxSpeed	/Users/benandlucy/Desktop/Quixel/Assets/Standard Assets/Character Controllers/Sources/Scripts/ThirdPersonCamera.js	/^var snapMaxSpeed = 720.0;$/;"	v
+snapSmoothLag	/Users/benandlucy/Desktop/Quixel/Assets/Standard Assets/Character Controllers/Sources/Scripts/ThirdPersonCamera.js	/^var snapSmoothLag = 0.2;$/;"	v
+speedControl	/Users/benandlucy/Desktop/Quixel/Assets/Standard Assets/Character Controllers/Sources/Scripts/CharacterMotor.js	/^	var speedControl : float = 0.4;$/;"	v
+speedSmoothing	/Users/benandlucy/Desktop/Quixel/Assets/Standard Assets/Character Controllers/Sources/Scripts/ThirdPersonController.js	/^var speedSmoothing = 10.0;$/;"	v
+start	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/MeshFactory.cs	/^        public static void start()$/;"	m	class:Quixel.MeshFactory
+start	/Users/benandlucy/Desktop/Quixel/Assets/script/MeshFactory.cs	/^        public static void start()$/;"	m	class:Quixell.MeshFactory
+start	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/MeshFactory.cs	/^        public static void start()$/;"	m	class:Quixx.MeshFactory
+steepPerpAmount	/Users/benandlucy/Desktop/Quixel/Assets/Standard Assets/Character Controllers/Sources/Scripts/CharacterMotor.js	/^	var steepPerpAmount : float = 0.5;$/;"	v
+subNodeID	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Nodes.cs	/^        public int subNodeID;$/;"	f	class:Quixel.Node
+subNodeID	/Users/benandlucy/Desktop/Quixel/Assets/script/Nodes.cs	/^        public int subNodeID;$/;"	f	class:Quixell.Node
+subNodeID	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/node.cs	/^        public int subNodeID;$/;"	f	class:Quixx.Node
+subNodes	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Nodes.cs	/^        public Node[] subNodes = new Node[8];$/;"	f	class:Quixel.Node
+subNodes	/Users/benandlucy/Desktop/Quixel/Assets/script/Nodes.cs	/^        public Node[] subNodes = new Node[8];$/;"	f	class:Quixell.Node
+subNodes	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/node.cs	/^        public Node[] subNodes = new Node[8];$/;"	f	class:Quixx.Node
+terminate	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/QuixelEngine.cs	/^        public static void terminate()$/;"	m	class:Quixel.QuixelEngine
+terminate	/Users/benandlucy/Desktop/Quixel/Assets/script/QuixelEngine.cs	/^        public static void terminate()$/;"	m	class:Quixell.QuixelEngine
+terminate	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/QuixelEngine.cs	/^    public static void terminate()$/;"	m	class:Quixx.QuixelEngine
+terrainGenerator	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/MeshFactory.cs	/^        public static IGenerator terrainGenerator = new BasicTerrain();$/;"	f	class:Quixel.MeshFactory
+terrainGenerator	/Users/benandlucy/Desktop/Quixel/Assets/script/MeshFactory.cs	/^        public static IGenerator terrainGenerator = new BasicTerrain();$/;"	f	class:Quixell.MeshFactory
+terrainGenerator	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/MeshFactory.cs	/^        public static IGenerator terrainGenerator = new BasicTerrain();$/;"	f	class:Quixx.MeshFactory
+terrainObj	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/MeshFactory.cs	/^        public static GameObject terrainObj;$/;"	f	class:Quixel.MeshFactory
+terrainObj	/Users/benandlucy/Desktop/Quixel/Assets/script/MeshFactory.cs	/^        public static GameObject terrainObj;$/;"	f	class:Quixell.MeshFactory
+terrainObj	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/MeshFactory.cs	/^        public static GameObject terrainObj;$/;"	f	class:Quixx.MeshFactory
+thread	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Threading.cs	/^        private Thread thread;$/;"	f	class:Quixel.DensityThread	file:
+thread	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Threading.cs	/^        private Thread thread;$/;"	f	class:Quixel.FileThread	file:
+thread	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Threading.cs	/^        private Thread thread;$/;"	f	class:Quixel.GeneratorThread	file:
+thread	/Users/benandlucy/Desktop/Quixel/Assets/script/Threading.cs	/^        private Thread thread;$/;"	f	class:Quixell.DensityThread	file:
+thread	/Users/benandlucy/Desktop/Quixel/Assets/script/Threading.cs	/^        private Thread thread;$/;"	f	class:Quixell.FileThread	file:
+thread	/Users/benandlucy/Desktop/Quixel/Assets/script/Threading.cs	/^        private Thread thread;$/;"	f	class:Quixell.GeneratorThread	file:
+thread	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/Threading.cs	/^        private Thread thread;$/;"	f	class:Quixx.DensityThread	file:
+thread	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/Threading.cs	/^        private Thread thread;$/;"	f	class:Quixx.FileThread	file:
+thread	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/Threading.cs	/^        private Thread thread;$/;"	f	class:Quixx.GeneratorThread	file:
+threadNum	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/MeshFactory.cs	/^        public static int threadNum = 0;$/;"	f	class:Quixel.MeshFactory
+threadNum	/Users/benandlucy/Desktop/Quixel/Assets/script/MeshFactory.cs	/^        public static int threadNum = 0;$/;"	f	class:Quixell.MeshFactory
+threadNum	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/MeshFactory.cs	/^        public static int threadNum = 0;$/;"	f	class:Quixx.MeshFactory
+topNodes	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Nodes.cs	/^        public static Node[, ,] topNodes = new Node[3, 3, 3];$/;"	f	class:Quixel.NodeManager
+topNodes	/Users/benandlucy/Desktop/Quixel/Assets/script/Nodes.cs	/^        public static Node[, ,] topNodes = new Node[3, 3, 3];$/;"	f	class:Quixell.NodeManager
+topNodes	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/node.cs	/^        public static Node[, ,] topNodes = new Node[3, 3, 3];$/;"	f	class:Quixx.NodeManager
+totalCreated	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Pooling.cs	/^        public static int totalCreated = 0;$/;"	f	class:Quixel.ChunkPool
+totalCreated	/Users/benandlucy/Desktop/Quixel/Assets/script/Pooling.cs	/^        public static int totalCreated = 0;$/;"	f	class:Quixell.ChunkPool
+totalCreated	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/Pooling.cs	/^        public static int totalCreated = 0;$/;"	f	class:Quixx.ChunkPool
+triTable	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/MeshFactory.cs	/^        static int[][] triTable = new int[256][] {$/;"	f	class:Quixel.MeshFactory	file:
+triTable	/Users/benandlucy/Desktop/Quixel/Assets/script/MeshFactory.cs	/^        static int[][] triTable = new int[256][] {$/;"	f	class:Quixell.MeshFactory	file:
+triTable	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/MeshFactory.cs	/^        static int[][] triTable = new int[256][] {$/;"	f	class:Quixx.MeshFactory	file:
+triangleArray	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Utilities.cs	/^        public Vector3[] triangleArray;$/;"	f	class:Quixel.MeshData
+triangleArray	/Users/benandlucy/Desktop/Quixel/Assets/script/Utilities.cs	/^        public Vector3[] triangleArray;$/;"	f	class:Quixell.MeshData
+triangleArray	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/Utilities.cs	/^        public Vector3[] triangleArray;$/;"	f	class:Quixx.MeshData
+trotAfterSeconds	/Users/benandlucy/Desktop/Quixel/Assets/Standard Assets/Character Controllers/Sources/Scripts/ThirdPersonController.js	/^var trotAfterSeconds = 3.0;$/;"	v
+trotSpeed	/Users/benandlucy/Desktop/Quixel/Assets/Standard Assets/Character Controllers/Sources/Scripts/ThirdPersonController.js	/^var trotSpeed = 4.0;$/;"	v
+update	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/MeshFactory.cs	/^        public static void update()$/;"	m	class:Quixel.MeshFactory
+update	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Pooling.cs	/^        public static void update()$/;"	m	class:Quixel.DensityPool
+update	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/QuixelEngine.cs	/^        public static void update()$/;"	m	class:Quixel.QuixelEngine
+update	/Users/benandlucy/Desktop/Quixel/Assets/script/MeshFactory.cs	/^        public static void update()$/;"	m	class:Quixell.MeshFactory
+update	/Users/benandlucy/Desktop/Quixel/Assets/script/Pooling.cs	/^        public static void update()$/;"	m	class:Quixell.DensityPool
+update	/Users/benandlucy/Desktop/Quixel/Assets/script/QuixelEngine.cs	/^        public static void update()$/;"	m	class:Quixell.QuixelEngine
+update	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/MeshFactory.cs	/^        public static void update()$/;"	m	class:Quixx.MeshFactory
+update	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/Pooling.cs	/^        public static void update()$/;"	m	class:Quixx.DensityPool
+update	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/QuixelEngine.cs	/^    public static void update()$/;"	m	class:Quixx.QuixelEngine
+useFixedUpdate	/Users/benandlucy/Desktop/Quixel/Assets/Standard Assets/Character Controllers/Sources/Scripts/CharacterMotor.js	/^var useFixedUpdate : boolean = true;$/;"	v
+uvArray	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Utilities.cs	/^        public Vector2[] uvArray;$/;"	f	class:Quixel.MeshData
+uvArray	/Users/benandlucy/Desktop/Quixel/Assets/script/Utilities.cs	/^        public Vector2[] uvArray;$/;"	f	class:Quixell.MeshData
+uvArray	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/Utilities.cs	/^        public Vector2[] uvArray;$/;"	f	class:Quixx.MeshData
+viewChunkPos	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Nodes.cs	/^        public static Vector3I[] viewChunkPos;$/;"	f	class:Quixel.NodeManager
+viewChunkPos	/Users/benandlucy/Desktop/Quixel/Assets/script/Nodes.cs	/^        public static Vector3I[] viewChunkPos;$/;"	f	class:Quixell.NodeManager
+viewChunkPos	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/node.cs	/^        public static Vector3I[] viewChunkPos;$/;"	f	class:Quixx.NodeManager
+viewPosChanged	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Nodes.cs	/^        public void viewPosChanged(Vector3 pos)$/;"	m	class:Quixel.Node
+viewPosChanged	/Users/benandlucy/Desktop/Quixel/Assets/script/Nodes.cs	/^        public void viewPosChanged(Vector3 pos)$/;"	m	class:Quixell.Node
+viewPosChanged	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/node.cs	/^        public void viewPosChanged(Vector3 pos)$/;"	m	class:Quixx.Node
+walkSpeed	/Users/benandlucy/Desktop/Quixel/Assets/Standard Assets/Character Controllers/Sources/Scripts/ThirdPersonController.js	/^var walkSpeed = 2.0;$/;"	v
+worldName	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Nodes.cs	/^        public static string worldName;$/;"	f	class:Quixel.NodeManager
+worldName	/Users/benandlucy/Desktop/Quixel/Assets/script/Nodes.cs	/^        public static string worldName;$/;"	f	class:Quixell.NodeManager
+worldName	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/node.cs	/^        public static string worldName;$/;"	f	class:Quixx.NodeManager
+x	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Utilities.cs	/^        public int x;$/;"	f	struct:Quixel.Vector3I
+x	/Users/benandlucy/Desktop/Quixel/Assets/script/Utilities.cs	/^        public int x;$/;"	f	struct:Quixell.Vector3I
+x	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/Utilities.cs	/^        public int x;$/;"	f	struct:Quixx.Vector3I
+y	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Utilities.cs	/^        public int y;$/;"	f	struct:Quixel.Vector3I
+y	/Users/benandlucy/Desktop/Quixel/Assets/script/Utilities.cs	/^        public int y;$/;"	f	struct:Quixell.Vector3I
+y	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/Utilities.cs	/^        public int y;$/;"	f	struct:Quixx.Vector3I
+z	/Users/benandlucy/Desktop/Quixel/Assets/Quixel/Utilities.cs	/^        public int z;$/;"	f	struct:Quixel.Vector3I
+z	/Users/benandlucy/Desktop/Quixel/Assets/script/Utilities.cs	/^        public int z;$/;"	f	struct:Quixell.Vector3I
+z	/Users/benandlucy/Desktop/Quixel/Assets/script/reload/Utilities.cs	/^        public int z;$/;"	f	struct:Quixx.Vector3I

@@ -58,6 +58,7 @@ namespace Quixel
 
         /// <summary>The maximum allowed LOD. The top level nodes will be this LOD.</summary>
         public static int maxLOD = 10;
+        //这里的设置没有意义，因为会被外面的设置覆盖掉
         #endregion
 
         /// <summary>
@@ -83,9 +84,10 @@ namespace Quixel
             }
 
             viewChunkPos = new Vector3I[maxLOD + 1];
-            for (int i = 0; i <= maxLOD; i++)
+            for (int i = 0; i <= maxLOD; i++){
                 viewChunkPos[i] = new Vector3I();
-            Debug.Log(worldName+",nSize:"+nSize);
+              }
+            //LODSize[0]居然是4哎，然后往后面数一直数到1024总共只有9个，前面1，2全都去掉了？而且maxLOD这里也是8，我日
         }
 
         /// <summary>
@@ -100,13 +102,19 @@ namespace Quixel
                 viewChunkPos[i].x = (int)(pos.x / nWidth);
                 viewChunkPos[i].y = (int)(pos.y / nWidth);
                 viewChunkPos[i].z = (int)(pos.z / nWidth);
+                //Debug.Log(LODSize[i]+","+i);
             }
 
             float sWidth = LODSize[0] * nodeSize * 0.5f;
+            //不知是谁设置的，但是这里的LODSize[0]已经是4了，毕竟init的时候debug就是这样，所以这里sWidth是32
             Vector3I newPos = new Vector3I((int)(pos.x / sWidth), (int)(pos.y / sWidth), (int)(pos.z / sWidth));
-
+            //getTopNode不管character怎么掉都一直是0，-1，0.
+            //不过如果一开始很高的话（大于0？）这个时侯会是0，0，0
+            //然后curTopNode和getTopNode倒是一直都很一致
+            //这是因为下面的这一大长段内容，如果curTop和Top不一样的话就马上进行调整
             if (!curTopNode.Equals(getTopNode(pos)))
             {
+
                 float nodeWidth = LODSize[maxLOD] * nodeSize;
                 Vector3I diff = getTopNode(pos).Subtract(curTopNode);
                 curTopNode = getTopNode(pos);
@@ -226,7 +234,6 @@ namespace Quixel
                     diff.z++;
                 }
             }
-
             if (curBottomNode.x != newPos.x || curBottomNode.y != newPos.y || curBottomNode.z != newPos.z)
             {
                 Vector3 setPos = new Vector3(newPos.x * sWidth + (sWidth / 1f), newPos.y * sWidth + (sWidth / 1f), newPos.z * sWidth + (sWidth / 1f));
@@ -249,6 +256,7 @@ namespace Quixel
         /// <returns>Null if no such node exists.</returns>
         public static Node[] searchNodeContainingDensity(Vector3 pos, int searchLOD)
         {
+            Debug.Log("searchNodeContainingDensity triggered, pos:"+pos+"searchLOD:"+searchLOD);
             Node[] ret = new Node[8];
             for (int x = 0; x < 3; x++)
             {
@@ -298,6 +306,9 @@ namespace Quixel
         public static Vector3 getOffsetPosition(Node parentNode, int subNodeID)
         {
             //Vector3 ret = new Vector3(parentNode.position.x, parentNode.position.y, parentNode.position.z);
+            //Debug.Log("getOffsetPosition triggered, parentNode is:"+parentNode+",subNodeID is "+subNodeID);
+            //subNodeID 从0~7，而parentNode要具体看Node的代码先，现在看到有LOD和position的值
+            //subNodeID 的意义是正方体8个点？
             int parentWidth = nodeSize * LODSize[parentNode.LOD];
             return new Vector3
             {
@@ -340,6 +351,7 @@ namespace Quixel
                     }
                 }
             }
+            Debug.Log("debug draw is called with ct:"+ct);
             return ct;
         }
     }
