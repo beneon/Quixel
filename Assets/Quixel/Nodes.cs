@@ -37,17 +37,17 @@ namespace Quixel
         /// <summary>Refers to the tri size of each vertex</summary>
         public static int[] LODSize = new int[11] {
         1,
-        2, 
-        4, 
+        2,
+        4,
         8, 16, 32, 64, 128, 256, 512, 1024
     };
 
         //DEPRECATED
         /// <summary>Radius for each LOD value</summary>
         public static int[] LODRange = new int[11] {
-        0, 
-        7, 
-        12, 
+        0,
+        7,
+        12,
         26, 50, 100, 210, 400, 700, 1200, 2400
     };
 
@@ -85,6 +85,7 @@ namespace Quixel
             viewChunkPos = new Vector3I[maxLOD + 1];
             for (int i = 0; i <= maxLOD; i++)
                 viewChunkPos[i] = new Vector3I();
+            Debug.Log(worldName+",nSize:"+nSize);
         }
 
         /// <summary>
