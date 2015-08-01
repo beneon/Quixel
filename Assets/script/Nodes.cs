@@ -5,7 +5,7 @@ using System.Threading;
 using System;
 using System.IO;
 
-namespace Quixel
+namespace Quixell
 {
     /// <summary>
     /// Controls the 27 top-level nodes. Handles node searching.

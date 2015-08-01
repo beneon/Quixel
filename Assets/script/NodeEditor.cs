@@ -5,7 +5,7 @@ using System.Threading;
 using System;
 using System.IO;
 
-namespace Quixel
+namespace Quixell
 {
     public static class NodeEditor
     {

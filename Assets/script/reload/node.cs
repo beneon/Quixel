@@ -32,7 +32,7 @@ namespace Quixx
         new Vector3(1, 0, 1),
         new Vector3(0, 1, 1),
         new Vector3(1, 1, 1)
-    };
+        };
 
         /// <summary>Refers to the tri size of each vertex</summary>
         public static int[] LODSize = new int[11] {
@@ -40,7 +40,7 @@ namespace Quixx
         2,
         4,
         8, 16, 32, 64, 128, 256, 512, 1024
-    };
+        };
 
         //DEPRECATED
         /// <summary>Radius for each LOD value</summary>
@@ -49,7 +49,7 @@ namespace Quixx
         7,
         12,
         26, 50, 100, 210, 400, 700, 1200, 2400
-    };
+        };
 
         public static int[] nodeCount = new int[11];
 
@@ -90,6 +90,7 @@ namespace Quixx
 
         /// <summary>
         /// Sets the view position, and checks if chunks need to be updated
+        ///没有看到setViewPosition在nodemanager里面被call;;;;
         /// </summary>
         /// <param name="pos"></param>
         public static void setViewPosition(Vector3 pos)
@@ -297,7 +298,7 @@ namespace Quixx
         /// <returns></returns>
         public static Vector3 getOffsetPosition(Node parentNode, int subNodeID)
         {
-            //Vector3 ret = new Vector3(parentNode.position.x, parentNode.position.y, parentNode.position.z);
+            //Vector3 ret = new Vector3(parentNode.   ition.x, parentNode.position.y, parentNode.position.z);
             int parentWidth = nodeSize * LODSize[parentNode.LOD];
             return new Vector3
             {
