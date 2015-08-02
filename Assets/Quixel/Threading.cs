@@ -18,7 +18,7 @@ namespace Quixel
 
         public GeneratorThread()
         {
-            Debug.Log("Generation Thread Started");
+//            Debug.Log("Generation Thread Started");
             genQueue = new Queue<MeshFactory.MeshRequest>();
             finishedQueue = new Queue<MeshFactory.MeshRequest>();
 

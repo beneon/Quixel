@@ -57,7 +57,7 @@ namespace Quixell
         public static int nodeSize = 16;
 
         /// <summary>The maximum allowed LOD. The top level nodes will be this LOD.</summary>
-        public static int maxLOD = 10;
+        public static int maxLOD = 12;
         #endregion
 
         /// <summary>
@@ -103,6 +103,7 @@ namespace Quixell
             }
 
             float sWidth = LODSize[0] * nodeSize * 0.5f;
+            Debug.Log(sWidth);
             Vector3I newPos = new Vector3I((int)(pos.x / sWidth), (int)(pos.y / sWidth), (int)(pos.z / sWidth));
 
             if (!curTopNode.Equals(getTopNode(pos)))

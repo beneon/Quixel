@@ -96,13 +96,16 @@ namespace Quixel
         /// <param name="pos"></param>
         public static void setViewPosition(Vector3 pos)
         {
+            /*Debug.Log(pos+",cameraPos:"+QuixelEngine.getCameraPos());
+            测试结果，这里的pos确实就是camera的位置
+            */
             for (int i = 0; i <= maxLOD; i++)
             {
                 float nWidth = LODSize[i] * nodeSize;
                 viewChunkPos[i].x = (int)(pos.x / nWidth);
                 viewChunkPos[i].y = (int)(pos.y / nWidth);
                 viewChunkPos[i].z = (int)(pos.z / nWidth);
-                //Debug.Log(LODSize[i]+","+i);
+
             }
 
             float sWidth = LODSize[0] * nodeSize * 0.5f;
@@ -112,6 +115,7 @@ namespace Quixel
             //不过如果一开始很高的话（大于0？）这个时侯会是0，0，0
             //然后curTopNode和getTopNode倒是一直都很一致
             //这是因为下面的这一大长段内容，如果curTop和Top不一样的话就马上进行调整
+            //newPos是为了调整curBottomNode
             if (!curTopNode.Equals(getTopNode(pos)))
             {
 
@@ -237,14 +241,21 @@ namespace Quixel
             if (curBottomNode.x != newPos.x || curBottomNode.y != newPos.y || curBottomNode.z != newPos.z)
             {
                 Vector3 setPos = new Vector3(newPos.x * sWidth + (sWidth / 1f), newPos.y * sWidth + (sWidth / 1f), newPos.z * sWidth + (sWidth / 1f));
-                for (int x = 0; x < 3; x++)
-                    for (int y = 0; y < 3; y++)
+                for (int x = 0; x < 3; x++){
+                    for (int y = 0; y < 3; y++){
                         for (int z = 0; z < 3; z++)
                         {
                             topNodes[x, y, z].viewPosChanged(setPos);
-                        }
+                            //Debug.Log(setPos+",newpos:"+newPos+",curbuttom:"+curBottomNode);
+                            /*
+                            (32.0, -96.0, 32.0),newpos:(0,-4,0),curbuttom:(0,-3,0)>>(0,-4,0)
+
+
+                            */
+                        }}}
 
                 curBottomNode = newPos;
+
             }
         }
 
@@ -256,7 +267,7 @@ namespace Quixel
         /// <returns>Null if no such node exists.</returns>
         public static Node[] searchNodeContainingDensity(Vector3 pos, int searchLOD)
         {
-            Debug.Log("searchNodeContainingDensity triggered, pos:"+pos+"searchLOD:"+searchLOD);
+
             Node[] ret = new Node[8];
             for (int x = 0; x < 3; x++)
             {
@@ -269,7 +280,8 @@ namespace Quixel
                     }
                 }
             }
-
+            Debug.Log("searchNodeContainingDensity triggered, pos:"+pos+"searchLOD:"+searchLOD+",return is"+ret);
+            //这一条好像还没有被触发过
             return ret;
         }
 
@@ -288,13 +300,16 @@ namespace Quixel
                     for (int z = 0; z < 3; z++)
                     {
                         if (topNodes[x, y, z] != null)
-                            if (topNodes[x, y, z].containsPoint(pos))
+                            if (topNodes[x, y, z].containsPoint(pos)){
+                                Debug.Log("searchNode called, with return value at "+x+","+y+","+z+":"+topNodes[x, y, z].searchNode(pos, searchLOD));
                                 return topNodes[x, y, z].searchNode(pos, searchLOD);
+                              }
                     }
                 }
             }
-
+            Debug.Log("searchNode called, no returned value");
             return null;
+            //这里和上面一样没有被触发
         }
 
         /// <summary>
@@ -316,6 +331,7 @@ namespace Quixel
                 y = parentNode.position.y + ((parentWidth / 2) * mask[subNodeID].y),
                 z = parentNode.position.z + ((parentWidth / 2) * mask[subNodeID].z)
             };
+            //这样子没问题，8个顶点可以提供全部的27个子点
         }
 
         /// <summary>
@@ -326,10 +342,11 @@ namespace Quixel
         public static Vector3I getTopNode(Vector3 pos)
         {
             Vector3I ret = new Vector3I();
-            ret.x = (int)Mathf.Floor(pos.x / (NodeManager.LODSize[maxLOD] * nodeSize));
-            ret.y = (int)Mathf.Floor(pos.y / (NodeManager.LODSize[maxLOD] * nodeSize));
-            ret.z = (int)Mathf.Floor(pos.z / (NodeManager.LODSize[maxLOD] * nodeSize));
-
+            ret.x = (int)Mathf.Floor(pos.x / (LODSize[maxLOD] * nodeSize));
+            ret.y = (int)Mathf.Floor(pos.y / (LODSize[maxLOD] * nodeSize));
+            ret.z = (int)Mathf.Floor(pos.z / (LODSize[maxLOD] * nodeSize));
+            //Debug.Log("getTopNode:"+LODSize[maxLOD]+","+NodeManager.LODSize[maxLOD]);
+            //去掉了原来的NodeManager.反正也是在一个类里面
             return ret;
         }
 
@@ -352,12 +369,14 @@ namespace Quixel
                 }
             }
             Debug.Log("debug draw is called with ct:"+ct);
+            //基本没有被呼叫过
             return ct;
         }
     }
 
     /// <summary>
     /// Octree node (chunk)
+    ///<ben>所以这里是用octree的结构做了chunk，那么一个chunk有多大呢？</ben>
     /// </summary>
     internal class Node
     {
@@ -407,6 +426,8 @@ namespace Quixel
         public bool collides = false;
         public bool empty = true;
 
+        public string nodeName ="";
+
         public RenderType renderType;
         public enum RenderType
         {
@@ -427,7 +448,9 @@ namespace Quixel
         3, 4, 5, 0, 1, 2
     };
         #endregion
-
+        public void NodeName(string nname){
+          this.nodeName = nname;
+        }
         public Node(Node parent, Vector3 position, int subNodeID, int LOD, RenderType renderType)
         {
             densityChangeData = new DensityData();
@@ -435,6 +458,7 @@ namespace Quixel
             this.position = position;
             this.subNodeID = subNodeID;
             this.LOD = LOD;
+
 
             float chunkWidth = (NodeManager.LODSize[LOD] * NodeManager.nodeSize) / 2f;
             center = new Vector3(position.x + chunkWidth,
@@ -478,6 +502,7 @@ namespace Quixel
 
             //if (distance < (((float)NodeManager.LODRange[LOD]) * sep) * (((float)NodeManager.LODRange[LOD]) * sep))
             Vector3I viewPos = NodeManager.viewChunkPos[LOD];
+            //Debug.Log(viewPos+","+LOD);
             int size = 1;
             if ((viewPos.x >= chunkPos.x - size && viewPos.x <= chunkPos.x + size)
                 && (viewPos.y >= chunkPos.y - size && viewPos.y <= chunkPos.y + size)

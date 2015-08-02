@@ -23,7 +23,7 @@ namespace Quixel
             MeshFactory.terrainObj = terrainObj;
 
             materials = mats;
-            Debug.Log("Materials: " + mats.Length);
+//            Debug.Log("Materials: " + mats.Length);
             DensityPool.init();
             MeshFactory.start();
             NodeManager.init(worldName);
@@ -67,6 +67,9 @@ namespace Quixel
         public static void setCameraObj(GameObject obj)
         {
             cameraObj = obj;
+        }
+        public static Vector3 getCameraPos(){
+          return cameraObj.transform.position;
         }
 
         /// <summary>
