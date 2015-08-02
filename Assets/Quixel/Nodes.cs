@@ -98,6 +98,8 @@ namespace Quixel
         {
             /*Debug.Log(pos+",cameraPos:"+QuixelEngine.getCameraPos());
             测试结果，这里的pos确实就是camera的位置
+            所以应该每次camera位置更新以后这里就会被call
+            然后计算出各个LOD下面camera的viewPosition（V3I形式）
             */
             for (int i = 0; i <= maxLOD; i++)
             {
@@ -480,6 +482,12 @@ namespace Quixel
             if (LOD == 0)
             {
                 string dir = getDirectory();
+                /*Debug.Log("dir for node in LOD 0 is:"+dir);
+                dir for node in LOD 0 is:testWorld\0\0\0\0\0\0\0\7\7
+                dir for node in LOD 0 is:testWorld\0\0\0\0\0\0\0\7\6
+                dir for node in LOD 0 is:testWorld\0\0\0\0\0\0\0\7\5 ...
+                */
+
                 if (Directory.Exists(dir) && File.Exists(dir + "\\densities.txt"))
                     MeshFactory.requestLoad(this);
             }
@@ -502,8 +510,14 @@ namespace Quixel
 
             //if (distance < (((float)NodeManager.LODRange[LOD]) * sep) * (((float)NodeManager.LODRange[LOD]) * sep))
             Vector3I viewPos = NodeManager.viewChunkPos[LOD];
-            //Debug.Log(viewPos+","+LOD);
+            /*Debug.Log(viewPos+","+LOD);
+            如前所述，viewChunkPos其实应该是摄像机当前位置在各个细节层次上的V3I坐标值
+            这里根据LOD选择相应层次下面的对应V3I
+            */
             int size = 1;
+            /*chunkPos是center的position在当前LOD下面的v3i坐标
+            下面的这个判定式就是说viewPos（摄像机位置V3I）是不是在当前chunk内部（中心+-1，这也是用V3I的好处）
+            */
             if ((viewPos.x >= chunkPos.x - size && viewPos.x <= chunkPos.x + size)
                 && (viewPos.y >= chunkPos.y - size && viewPos.y <= chunkPos.y + size)
                 && (viewPos.z >= chunkPos.z - size && viewPos.z <= chunkPos.z + size))
@@ -515,6 +529,7 @@ namespace Quixel
                 {
                     if (subNodes[i] != null)
                         subNodes[i].viewPosChanged(pos);
+                        //向下传递命令
                 }
             }
             //else if (!permanent)
@@ -525,6 +540,8 @@ namespace Quixel
                     || (viewPos.y < chunkPos.y - size || viewPos.y > chunkPos.y + size)
                     || (viewPos.z < chunkPos.z - size || viewPos.z > chunkPos.z + size))
                 {
+                  /*Debug.Log(size+","+LOD+"viewPos:"+viewPos+","+chunkPos);
+                  在lod低阶的时候，如果在一个半chunk以外，也就是包围当前chunk的chunks以外，那就不再subdivide的意思吧……*/
                     for (int i = 0; i < 8; i++)
                     {
                         if (subNodes[i] != null)
@@ -535,6 +552,7 @@ namespace Quixel
                     }
                 }
                 else if (LOD >= 3)
+                //在粗糙的层级，只要超出了当前chunk那就直接不再subdivide
                 {
                     for (int i = 0; i < 8; i++)
                     {
@@ -549,11 +567,20 @@ namespace Quixel
 
             if (LOD == 0)
             {
+                /*Debug.Log("LOD 0 situation");
+                lod0的情况是经常会发生的*/
                 float nodeSize = (float)NodeManager.LODSize[0] * (float)NodeManager.nodeSize;
+                /*Debug.Log(nodeSize);
+                仍旧是LODSize[0]是4，nodesize当然是16，这里nodesize是64*/
+
                 Vector3I viewChunk = new Vector3I((int)(pos.x / nodeSize),
                     (int)(pos.y / nodeSize),
                     (int)(pos.z / nodeSize));
-
+                /*if(!viewChunk.Equals(NodeManager.viewChunkPos[0])){
+                  Debug.Log(viewChunk+",NM.viewChunkPos: "+NodeManager.viewChunkPos[0]);
+                }*
+                这两个真的不是一直都是相等的。好神奇。所以千万不要乱改。
+                /
                 Vector3I curChunk = new Vector3I((int)(position.x / nodeSize),
                     (int)(position.y / nodeSize),
                     (int)(position.z / nodeSize));
