@@ -1,0 +1,4 @@
+Thread was being aborted
+  at (wrapper managed-to-native) System.Threading.Thread:Sleep_internal (int)
+  at System.Threading.Thread.Sleep (Int32 millisecondsTimeout) [0x00017] in /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System.Threading/Thread.cs:319 
+  at Quixel.FileThread.commitLoop () [0x00005] in /Users/benandlucy/Desktop/Quixel/Assets/Quixel/Threading.cs:253 

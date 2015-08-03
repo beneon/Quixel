@@ -69,11 +69,8 @@ namespace Quixel
             for (int o = 0; o < points.Count; o++)
             {
                 realPos = points[o];
-                Debug.Log("in applyBrush, realPos at o:"+o+", is "+realPos);
                 Node[] editNodes = NodeManager.searchNodeContainingDensity(realPos, 0);
-                foreach(Node n in editNodes){
-                  Debug.Log("editnodes:"+n);
-                }
+                Debug.Log("in applyBrush, realPos at o:"+o+", is "+realPos+",original pos:"+pos);
                 /*
                 Returns a node containing the point as close as possible to the requested LOD.
                 a list of node[]
@@ -179,6 +176,8 @@ namespace Quixel
         private static List<Vector3> getPoints(BrushType type, int size, Vector3 pos)
         {
             float nodeWidth = NodeManager.LODSize[0];
+            //这里是不是少了一个nodesize呢？先加上去看看
+            //但是仍旧还是一样的呢
             Vector3I point = new Vector3I((int)Math.Round(pos.x / nodeWidth),
                 (int)Math.Round(pos.y / nodeWidth),
                 (int)Math.Round(pos.z / nodeWidth));
@@ -197,6 +196,7 @@ namespace Quixel
                                 realPos.x = ((point.x + x) * nodeWidth);
                                 realPos.y = ((point.y + y) * nodeWidth);
                                 realPos.z = ((point.z + z) * nodeWidth);
+                                //这里就类似*nodesize了，所以上面应该是不用加
                                 ret.Add(realPos);
                             }
                         }
@@ -224,7 +224,11 @@ namespace Quixel
                     }
                     break;
             }
-
+            string retStr = type+","+size+",";
+            foreach(Vector3 v in ret){
+              retStr+=v+",";
+            }
+            Debug.Log(retStr);
             return ret;
         }
     }
