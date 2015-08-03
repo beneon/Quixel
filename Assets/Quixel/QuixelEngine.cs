@@ -27,6 +27,7 @@ namespace Quixel
             DensityPool.init();
             MeshFactory.start();
             NodeManager.init(worldName);
+            NodeEditor.testBrush(cameraObj,2);
         }
 
         /// <summary>

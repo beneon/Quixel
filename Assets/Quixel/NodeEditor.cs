@@ -21,6 +21,12 @@ namespace Quixel
         public static float DENSITY_EMPTY = MeshFactory.isolevel + 1f;
 
         private static byte materialID = 0;
+        /*
+        尝试用camera做一个测试笔刷，看看这里的工作机理
+        */
+        private static GameObject testbrush;
+        private static float testval;
+        private static int testsize;
         #endregion
 
         /// <summary>
@@ -31,6 +37,17 @@ namespace Quixel
         public static void setMaterial(byte matID)
         {
             materialID = matID;
+        }
+        ///自己测试用的两个function
+        public static void testBrush(GameObject brusher,int size)
+        {
+          testbrush = brusher;
+          testval = DENSITY_EMPTY;
+          testsize = size;
+        }
+
+        public static void dumpAhole(){
+          applyBrush(BrushType.BOX,testsize,testbrush.transform.position,testval);
         }
 
         /// <summary>
@@ -52,7 +69,11 @@ namespace Quixel
             for (int o = 0; o < points.Count; o++)
             {
                 realPos = points[o];
+                Debug.Log("in applyBrush, realPos at o:"+o+", is "+realPos);
                 Node[] editNodes = NodeManager.searchNodeContainingDensity(realPos, 0);
+                foreach(Node n in editNodes){
+                  Debug.Log("editnodes:"+n);
+                }
                 /*
                 Returns a node containing the point as close as possible to the requested LOD.
                 a list of node[]

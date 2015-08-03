@@ -282,7 +282,7 @@ namespace Quixel
                     }
                 }
             }
-            Debug.Log("searchNodeContainingDensity triggered, pos:"+pos+"searchLOD:"+searchLOD+",return is"+ret);
+            //Debug.Log("searchNodeContainingDensity triggered, pos:"+pos+"searchLOD:"+searchLOD+",return is"+ret);
             //这一条和下面的都是在NodeEditor里面会用，其他地方还没有看到
             return ret;
         }
@@ -907,7 +907,7 @@ namespace Quixel
                 arrayPos.y < -1 || arrayPos.y > 17 ||
                 arrayPos.z < -1 || arrayPos.z > 17)
             {
-                Debug.Log("Wrong node. " + arrayPos);
+                //Debug.Log("Wrong node. " + arrayPos+", and worldPos is :"+worldPos);
                 return;
             }
 
@@ -932,7 +932,7 @@ namespace Quixel
                 arrayPos.y < -1 || arrayPos.y > 17 ||
                 arrayPos.z < -1 || arrayPos.z > 17)
             {
-                Debug.Log("Wrong node. " + arrayPos);
+                //Debug.Log("Wrong node. " + arrayPos);
                 return;
             }
 
