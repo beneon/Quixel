@@ -53,6 +53,12 @@ namespace Quixel
             {
                 realPos = points[o];
                 Node[] editNodes = NodeManager.searchNodeContainingDensity(realPos, 0);
+                /*
+                Returns a node containing the point as close as possible to the requested LOD.
+                a list of node[]
+                <param name="pos"></param>
+                <param name="searchLOD"></param>
+                */
 
                 for (int i = 0; i < editNodes.Length; i++)
                 {

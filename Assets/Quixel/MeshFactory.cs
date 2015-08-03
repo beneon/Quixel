@@ -183,6 +183,10 @@ namespace Quixel
             public bool hasDensities;
             public MeshData meshData;
             public DensityData densities;
+
+            public override string ToString(){
+              return ("LOD:"+ LOD+", pos:"+pos+",node:"+node);
+            }
         }
         #endregion
 

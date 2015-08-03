@@ -283,16 +283,20 @@ namespace Quixel
                 }
             }
             Debug.Log("searchNodeContainingDensity triggered, pos:"+pos+"searchLOD:"+searchLOD+",return is"+ret);
-            //这一条好像还没有被触发过
+            //这一条和下面的都是在NodeEditor里面会用，其他地方还没有看到
             return ret;
         }
 
         /// <summary>
         /// Returns a node containing the point as close as possible to the requested LOD.
         /// </summary>
-        /// <param name="pos"></param>
+        /// <param name="pos">point pos</param>
         /// <param name="searchLOD"></param>
-        /// <returns>Null if no such node exists.</returns>
+        /// <returns>Null if no such node exists.上下两个参数是一样的，不过呼叫的node函数不一样
+        /// 上面的呼叫searchNodeCreate函数，发送pos，searchLOD参数，并给一个ref接受返回的Node[]
+        /// 下面这条呼叫node的searchNode函数，发送pos searchLOD参数，返回值是一个Node
+        /// 遍历方面，两者都是从0~3在各个轴上对topNodes里面的node进行遍历。
+        /// </returns>
         public static Node searchNode(Vector3 pos, int searchLOD)
         {
             for (int x = 0; x < 3; x++)
@@ -311,7 +315,6 @@ namespace Quixel
             }
             Debug.Log("searchNode called, no returned value");
             return null;
-            //这里和上面一样没有被触发
         }
 
         /// <summary>
@@ -417,7 +420,7 @@ namespace Quixel
         /// <summary>The parent that owns this node. Null if top-level</summary>
         public Node parent;
 
-        /// <summary>Gameobject that contains the mesh</summary>
+        /// <summary>Gameobject that contains the mesh chunk </summary>
         private GameObject chunk;
 
         /// <summary> Center of the chunk in real pos </summary>
@@ -572,15 +575,16 @@ namespace Quixel
                 float nodeSize = (float)NodeManager.LODSize[0] * (float)NodeManager.nodeSize;
                 /*Debug.Log(nodeSize);
                 仍旧是LODSize[0]是4，nodesize当然是16，这里nodesize是64*/
-
+                //其实下面这里是函数里面第一次用到pos进行运算，前面那个引用pos只是向下传递接过来的参数。
                 Vector3I viewChunk = new Vector3I((int)(pos.x / nodeSize),
                     (int)(pos.y / nodeSize),
                     (int)(pos.z / nodeSize));
                 /*if(!viewChunk.Equals(NodeManager.viewChunkPos[0])){
                   Debug.Log(viewChunk+",NM.viewChunkPos: "+NodeManager.viewChunkPos[0]);
-                }*
+                }
                 这两个真的不是一直都是相等的。好神奇。所以千万不要乱改。
-                /
+                因为确实nodeSize就是nodemanager里面nWidth在lod=0的值，那就只可能是两处的pos不一定一样了。
+                */
                 Vector3I curChunk = new Vector3I((int)(position.x / nodeSize),
                     (int)(position.y / nodeSize),
                     (int)(position.z / nodeSize));
@@ -589,6 +593,8 @@ namespace Quixel
                     curChunk.y >= viewChunk.y - 3 && curChunk.y <= viewChunk.y + 3 &&
                     curChunk.z >= viewChunk.z - 3 && curChunk.z <= viewChunk.z + 3)
                 {
+                    //curChunk,viewChunk,viewPos,chunkPos，这个家伙命名还真是随意啊
+                    //collides是一个什么鬼，当前摄像机位置在curChunk三个单位（其实是各个轴6个单位）以内时：
                     collides = true;
                     if (chunk != null)
                     {
@@ -606,6 +612,7 @@ namespace Quixel
         /// <param name="pos"></param>
         /// <returns></returns>
         public void searchNodeCreate(Vector3 pos, int searchLOD, ref Node[] list)
+        /// node editor过来的，pos是那边的realpos，
         {
             if (containsDensityPoint(pos))
             {
