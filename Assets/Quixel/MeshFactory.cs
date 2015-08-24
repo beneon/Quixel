@@ -70,7 +70,7 @@ namespace Quixel
                 }
             }
 
-            #region Save/Load threads
+            #region Save/Load thread
             Node node;
             while ((node = fileThread.getFinishedLoadRequest()) != null)
             { node.regenerateChunk(); nodesLoaded++; }
